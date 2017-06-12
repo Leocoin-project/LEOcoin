@@ -1,0 +1,48 @@
+/*------------------------------------------------------------------
+# [Layout]
+------------------------------------------------------------------*/
+
+.grid {
+	.clearfix();
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+
+	.col {
+		display: block;
+		margin: 0;
+
+		&:first-child {
+			margin-left: 0 !important;
+		}
+
+		@media @bp_768 {
+			float: left;
+			margin: 0 0 0 1.6%;
+		}
+	}
+
+	.span-1-of-2 {
+
+		@media @bp_768 {
+			width: 49.2%;
+			margin-left: 1.6%;
+		}
+		
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+
+	.span-1-of-3 {
+
+		@media @bp_768 {
+			width: 32.26%;
+			margin-left: 1.6%;
+		}
+		
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+}

@@ -1,0 +1,9 @@
+[main]
+host = https://www.transifex.com
+
+[LEOcoincore.LEOcoin_qt]
+file_filter = src/qt/locale/LEOcoin_<lang>.ts
+source_file = src/qt/locale/LEOcoin_en.ts
+source_lang = en
+type = QT
+

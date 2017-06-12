@@ -1,0 +1,13 @@
+#!/bin/bash
+set -e
+
+OTOOL=${HOST}-otool INSTALLNAMETOOL=${HOST}-install_name_tool STRIP=${HOST}-strip contrib/macdeploy/macdeployqtplus LEOcoin.app
+mkdir -p dist/.background
+install contrib/macdeploy/background.png dist/.background
+install contrib/macdeploy/DS_Store dist/.DS_Store
+install src/qt/res/icons/LEOcoin.icns dist/.VolumeIcon.icns
+cd dist
+ln -sf /Applications Applications
+cd ..
+genisoimage -no-cache-inodes -l -probe -V "LEOcoin" -no-pad -r -apple -o LEOcoin.tmp.dmg dist
+dmg dmg LEOcoin.tmp.dmg LEOcoin.macosx.dmg

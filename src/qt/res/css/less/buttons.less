@@ -1,0 +1,55 @@
+/*------------------------------------------------------------------
+# [Buttons]
+------------------------------------------------------------------*/
+
+.btn {
+	text-align: center;
+	.font-size(14);
+	line-height: 24px;
+	color: @white;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: 0px solid transparent;
+	padding: 10px 5px;
+
+	@media @bp_768 {
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+	&.submit,
+	&.reset {
+		.box-sizing();
+		font-weight: 600;
+		.rounded-corners(5px);
+		width: 100%;
+		.font-size(14);
+		text-transform: uppercase;
+		color: @white;
+		background-color: @yellow;
+		-webkit-box-shadow: inset 0 0 20px #000;
+		-moz-box-shadow: inset 0 0 20px #000;
+		box-shadow: inset 0 0 20px #000;
+
+		@media @bp_480 {
+			width: 160px;
+		}
+	}
+
+	&.reset {
+		background-color: #626262;
+		margin-top: 13px;
+
+		@media @bp_480 {
+			margin-top: 0;
+		}
+
+		@media @bp_768 {
+			margin-left: 32px;
+		}
+	}
+}

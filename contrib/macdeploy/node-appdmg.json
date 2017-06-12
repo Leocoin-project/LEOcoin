@@ -1,0 +1,12 @@
+//npm install -g appdmg
+//appdmg node-appdmg.json LEOcoin.dmg
+//Mount .dmg and copy /Volumes/LEOcoin/.DS_Store to ./DS_Store
+{
+  "title": "LEOcoin",
+  "icon": "../../src/qt/res/icons/LEOcoin.icns",
+  "background": "background.png",
+  "contents": [
+    { "x": 370, "y": 156, "type": "link", "path": "/Applications" },
+    { "x": 128, "y": 156, "type": "file", "path": "../../LEOcoin.app" }
+  ]
+}
