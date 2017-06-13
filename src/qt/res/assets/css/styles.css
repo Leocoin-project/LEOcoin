@@ -1016,8 +1016,7 @@ body {
     /*box-shadow: inset 0 0 20px #000;*/
 }
 
-
-.btn.submit.disabled{
+.btn.submit.disabled {
     background-color: #bf9549;
     color: #f3f3f3;
     cursor: default;
@@ -1251,6 +1250,7 @@ label {
     }
 }
 
+input,
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -1267,10 +1267,12 @@ input[type="password"], select, textarea {
     background-color: rgba(191, 191, 191, 0.5);
     padding: 0 13px;
     width: 100%;
+    margin-right:2px;
 }
 
+.btn-group input,
 .btn-group input[type="text"],
-.btn-group input[type="email"] 
+.btn-group input[type="email"]
 .btn-group input[type="tel"] 
 .btn-group input[type="number"] 
 .btn-group input[type="url"] 
@@ -1306,6 +1308,7 @@ input[type="password"], select, textarea {
     margin-bottom: 4px;
 }
 
+.title-widgets input,
 .title-widgets input[type="text"],
 .title-widgets input[type="email"],
 .title-widgets input[type="tel"],
@@ -1319,11 +1322,12 @@ input[type="password"], select, textarea {
     width: 150px;
     padding-bottom: 2px;
     height: 34px;
-    margin-top:0;
+    margin-top: 0;
+    margin-right:2px;
 }
 
-.title-widgets select{
-    line-height:30px;
+.title-widgets select {
+    line-height: 30px;
 
 }
 
@@ -1332,6 +1336,7 @@ textearea {
 }
 
 @media only screen and (min-width: 768px) {
+    input,
     input[type="text"],
     input[type="email"],
     input[type="tel"],
@@ -1345,6 +1350,7 @@ textearea {
         width: 300px;
     }
 
+    .title-widgets input,
     .title-widgets input[type="text"],
     .title-widgets input[type="email"],
     .title-widgets input[type="tel"],
@@ -1382,6 +1388,7 @@ textearea {
         width: 300px;
     }
 
+    .btn-group input,
     .btn-group input[type="text"],
     .btn-group input[type="email"],
     .btn-group input[type="tel"],
@@ -1424,6 +1431,14 @@ input[type="checkbox"] + label {
     color: #ffffff;
 }
 
+input[type="radio"][disabled] + label:before,
+input[type="checkbox"][disabled] + label:before {
+
+    background-color: #5f5f5f;
+    border: 4px solid #5f5f5f;
+    cursor: default !important;
+}
+
 input[type="radio"] + label:before,
 input[type="checkbox"] + label:before {
     content: "";
@@ -1439,6 +1454,16 @@ input[type="checkbox"] + label:before {
     border-radius: 2px;
     background-color: #a6a5a5;
     border: 4px solid #7b7b7b;
+}
+
+.disabled {
+    cursor: default !important;
+}
+
+input[disabled], textarea[disabled], select[disabled] {
+    background-color: #5f5f5f;
+    color: #adadad;
+    cursor: default !important;
 }
 
 @media only screen and (min-width: 768px) {
@@ -1480,10 +1505,9 @@ input[type="checkbox"]:checked + label:after {
     background-size: 14px;
 }
 
- select, textarea {
+select, textarea {
     margin-top: 5px;
 }
-
 
 .big {
     font-size: 20px;
@@ -2633,19 +2657,18 @@ th {
     color: #eda821;
 }
 
-#quickview .section .selected a{
-	text-decoration: underline;
+#quickview .section .selected a {
+    text-decoration: underline;
     color: #eda821;
 }
 
-.quickview-wrapper .tabs li {	
+.quickview-wrapper .tabs li {
     padding-left: 0px;
     padding-right: 0px;
 }
 
-
-.quickview-wrapper .tabs .selected{
-	border-bottom: none !important;
+.quickview-wrapper .tabs .selected {
+    border-bottom: none !important;
 }
 
 .tabs li {
@@ -2657,8 +2680,8 @@ th {
     padding-right: 15px;
 }
 
-.tabs .selected{
-    border-bottom:1px solid #eda821;
+.tabs .selected {
+    border-bottom: 1px solid #eda821;
 }
 
 @media only screen and (min-width: 480px) {
@@ -2667,7 +2690,6 @@ th {
         font-size: 1.4rem;
         margin-left: 10px;
     }
-
 
     .tabs {
         line-height: 47px;
@@ -2737,7 +2759,7 @@ th {
 }
 
 .modal-close {
-    color: #aaa;
+    color: #eda821;
     position: absolute;
     top: 10px;
     right: 15px;
@@ -2752,3 +2774,47 @@ th {
     cursor: pointer;
 }
 
+#address-lookup-table > tbody tr {
+    cursor: pointer;
+}
+
+.white .modal-content {
+    position: relative;
+    padding: 0px 20px 20px 20px;
+    background-color: #fefefe;
+    border: 1px solid #eda821;
+    color: #000000;
+}
+
+.white .modal-header {
+    background-color: #000000;
+    color: #fefefe;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    background-size: 113px;
+    background-image: url(../images/logo-leocoin.svg);
+    background-repeat: no-repeat;
+    background-position: 13px center;
+    border-bottom: 1px solid #eda821;
+}
+
+.modal.white h2 {
+    margin: 0px;
+    margin-left: 120px;
+    border-bottom: 0px;
+    margin-top: 2px;
+}
+
+.modal.white .version-found {
+    text-align: center;
+    font-size: 2rem;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.modal.white .version-found a {
+    color: #eda821;
+    font-weight: bold;
+}

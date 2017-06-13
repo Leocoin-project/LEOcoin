@@ -24,8 +24,8 @@
     <link href="qrc:///assets/css/font-awesome-buttons.min.css" rel="stylesheet" type="text/css">
     <link href="qrc:///assets/plugins/contextMenu/contextMenu.css" rel="stylesheet" type="text/css"/>
     <link href="qrc:///assets/css/normalize.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="qrc:///assets/css/styles.css" type="text/css">
-    <link rel="stylesheet" href="qrc:///assets/css/custom.css" type="text/css">
+    <link rel="stylesheet" href="qrc:///assets/css/styles.min.css" type="text/css">
+    <link rel="stylesheet" href="qrc:///assets/css/custom.min.css" type="text/css">
     <!-- core CSS-->
     <!--<link href="qrc:///assets/css/LEOcoin.css" rel="stylesheet" type="text/css"/>-->
     <!-- framework CSS-->
@@ -564,8 +564,9 @@
                                            type="radio" value="private"/><label
                                             for="from_account_private" class="translate">PRIVATE</label>
                                         <!-- SDT -> LEO -->
-                                    <span class="pull-rigth" data-title="Current spendable send payment balance">
-                                    <b class="translate">Balance:</b>
+                                    <label class="pull-rigth balance-value"
+                                           data-title="Current spendable send payment balance">
+                                    <span class="translate">Balance:</span>
                                     <span id="spend_sdc">
                                     <span class="balance">0.00</span>
                                     <span class="unit">LEO</span>
@@ -574,7 +575,7 @@
                                     <span class="LEOcoin_balance">0.00</span>
                                     <span class="unit">LEO</span>
                                     </span>
-                                    </span>
+                                    </label>
                                  </span>
                                 </div>
                                 <!-- end coincontrol -->
@@ -603,9 +604,9 @@
                                             for="to_account_private"
                                             class="translate">PRIVATE</label>
                                         <!-- -> SDT -->
-                                    <span class="pull-right" id="to_balance"
-                                          data-title="Current spendable balance to account">
-                                    <b class="translate">Balance:</b>
+                                    <label class="balance-value" id="to_balance"
+                                           data-title="Current spendable balance to account">
+                                    <span class="translate">Balance:</span>
                                     <span id="to_LEOcoin">
                                     <span class="LEOcoin_balance">0.00</span>
                                     <span class="unit">LEO</span>
@@ -614,7 +615,7 @@
                                     <span class="balance">0.00</span>
                                     <span class="unit">LEO</span>
                                     </span>
-                                    </span>
+                                    </label>
                                  </span>
                                 </div>
                             </div>
@@ -638,7 +639,7 @@
                                                          onchange="$('#recipient-template .pay_to_label').val(bridge.getAddressLabel(this.value));"
                                                          type="text"/>
                                                   </span>
-                                                <input class="right pay_to_label"
+                                                <input class="right pay_to_label balance-value"
                                                        data-title="Enter a label for this address"
                                                        placeholder="Enter a label"
                                                        maxlength="128" type="text"/>
@@ -738,7 +739,7 @@
                                               type="text"/>
                                        </span>
                                             <span class="col-sm-3">
-                                       <span class="pay_to_label translate"
+                                       <span class="pay_to_label translate balance-value"
                                              data-title="The label for this address"
                                              style="overflow: hidden;white-space: nowrap;">
                                        (no label)
@@ -1169,9 +1170,8 @@
                            placeholder="Find Block by hash/height/transaction">
                 </div>
                 <div class="section-content">
-                    <table cellspacing="0" class="footable LEOcoin table
-                           data-filter=" #filter-outputs
-                    " data-page="false"
+                    <table cellspacing="0" class="footable LEOcoin table"
+                           data-filter="#filter-outputs" data-page="false"
                     id="latest-blocks-table" width="100%">
                     <thead>
                     <tr>
@@ -1268,7 +1268,7 @@
                 <div class="section-content">
                     <form autocomplete="off" class="form-horizontal" id="form-work"
                           name="form-work">
-                        <div class="tab-content" id="tab1main">
+                        <div class="tab-content options" id="tab1main">
                             <fieldset>
                                 <div id="options-main">
                                     <div class="form-row">
@@ -1427,14 +1427,12 @@
                                                for="optSecureMessaging"></label>
                                     </div>
                                     <div class="form-row">
-                                        <input data-linked="optThinFullIndex optThinIndexWindow"
-                                               id="optThinMode"
-                                               type="checkbox">
-                                        <label class="translate">Thin
-                                            Mode (Requires Restart)</label>
-                                        <label class="option"
-                                               for="optThinMode"></label>
+                                        <input data-linked="optThinFullIndex optThinIndexWindow" id="optThinMode"
+                                               type="checkbox"/>
+                                        <label for="optThinMode" class="translate">Thin Mode (Requires Restart)</label>
+                                        <label class="option" for="optThinMode"></label>
                                     </div>
+
                                     <div class="form-row">
                                         <input id="optThinFullIndex"
                                                title="Keep the entire block index in memory"
@@ -1462,7 +1460,7 @@
                                 <!-- /options-main -->
                             </fieldset>
                         </div>
-                        <div class="tab-content" id="tab1network">
+                        <div class="tab-content options" id="tab1network">
                             <div id="options-network">
                                 <div class="form-row">
                                     <input id="optMapPortUPnP"
@@ -1519,7 +1517,7 @@
                             </div>
                             <!-- /options-network -->
                         </div>
-                        <div class="tab-content" id="tab1window">
+                        <div class="tab-content options" id="tab1window">
                             <div id="options-window">
                                 <div class="form-row">
                                     <input id="optMinimizeToTray"
@@ -1543,7 +1541,7 @@
                             </div>
                             <!-- /options-window -->
                         </div>
-                        <div class="tab-content" id="tab1display">
+                        <div class="tab-content options" id="tab1display">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div id="options-display">
@@ -1586,15 +1584,14 @@
                                                 page:</label>
                                             <input class="-options-page"
                                                    id="optRowsPerPage"
-                                                   placeholder="20" step="5"
+                                                   min="5" step="5"
                                                    type="number" value="20">
                                         </div>
                                         <div class="form-row">
                                             <input id="optDisplayAddresses"
                                                    type="checkbox">
                                             <label class="translate"
-                                                   for="optDisplayAddresses">Display
-                                                addresses in transaction
+                                                   for="optDisplayAddresses">Display addresses in transaction
                                                 list</label>
                                             <label class="option"
                                                    for="optDisplayAddresses"></label>
@@ -2239,6 +2236,34 @@
                 <!-- modal dialog -->
             </div>
             <!-- add address modal -->
+
+            <!-- Sign/verify modal -->
+            <div class="modal fade stick-up white" id="version-info-modal" tabindex="-1"
+                 role="dialog"
+                 aria-hidden="true">
+                <div class="modal-content">
+                    <span class="modal-close">&times;</span>
+                    <div class="modal-header clearfix text-left ">
+                        <h2 class="p-l-10 translate">Notification</h2>
+
+                    </div>
+                    <div class="" id="version-info">
+                        <div class="version-found">
+                            <span class="translate"> A new version of the LEOcoin wallet is available.</span>
+                            <br/>
+                            <span class="translate"> Please go to</span>
+
+                            <a href="http://www.leocoin.org" id="suggested-version">http://www.leocoin.org</a> &nbsp<span
+                                class="translate"> and upgrade to the latest version.
+                                </span>
+
+                            <br/>
+                            <button class="btn submit" onclick="$('#version-info-modal').hide()"><span class="translate">CLOSE</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!-- add lookup modal -->
             <div class="modal fade stick-up" id="address-lookup-modal" tabindex="-1" role="dialog"
                  aria-hidden="true" style="z-index:1060;">
@@ -3140,7 +3165,6 @@
 <script src="qrc:///assets/js/LEOcoin.min.js" type="text/javascript"></script>
 <script src="qrc:///assets/js/pages/send.min.js" type="text/javascript"></script>
 <script src="qrc:///assets/js/custom.min.js"></script>
-
 
 <!-- Jdenticon
 

@@ -265,6 +265,16 @@ QT_TRANSLATE_NOOP("LEOcoinBridge", "Your recovery phrase (Keep this safe!)"),
 QT_TRANSLATE_NOOP("LEOcoinBridge", "Wallet Name for recovered account"),
 QT_TRANSLATE_NOOP("LEOcoinBridge", "Enter the password for the wallet you are trying to recover"),
 QT_TRANSLATE_NOOP("LEOcoinBridge", "Is this a bip44 path?"),
+
+
+    QT_TRANSLATE_NOOP("LEOcoinBridge", "LEOcoin Notification"),
+    QT_TRANSLATE_NOOP("LEOcoinBridge", "A new version of the LEOcoin wallet is available."),
+
+
+    QT_TRANSLATE_NOOP("LEOcoinBridge", "Please go to"),
+
+    QT_TRANSLATE_NOOP("LEOcoinBridge", "and upgrade to the latest version."),
+
     0 // Leave this here...
 };
 #endif // BRIDGETRANSLATIONS_H

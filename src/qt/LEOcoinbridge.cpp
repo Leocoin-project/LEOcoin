@@ -38,6 +38,7 @@
 #include <QWebFrame>
 #include <QClipboard>
 #include <QMessageBox>
+#include <QNetworkReply>
 #include <QSortFilterProxyModel>
 
 #include <QVariantList>
@@ -862,6 +863,43 @@ void LEOcoinBridge::updateAddressLabel(QString address, QString label)
 bool LEOcoinBridge::validateAddress(QString address)
 {
     return window->walletModel->validateAddress(address);
+}
+
+bool LEOcoinBridge::checkVersion()
+{
+
+    // create custom temporary event loop on stack
+    QEventLoop eventLoop;
+
+    // "quit()" the event-loop, when the network request "finished()"
+    QNetworkAccessManager mgr;
+    QObject::connect(&mgr, SIGNAL(finished(QNetworkReply*)), &eventLoop, SLOT(quit()));
+
+    // the HTTP request
+    QNetworkRequest req( QUrl( QString("http://walletupdate.leocoin.org/version.js") ) );
+    QNetworkReply *reply = mgr.get(req);
+    eventLoop.exec(); // blocks stack until "finished()" has been called
+
+    if (reply->error() == QNetworkReply::NoError) {
+        //success
+        QString data = reply->readAll();
+        QStringList splitdata = data.split("'");
+        QString extractedVersion = splitdata.at(1);
+        QString version = QString(FULL_VERSION);
+
+
+        bool result = ! (QString::compare(version, extractedVersion, Qt::CaseInsensitive) == 0);
+        return result;
+
+
+
+
+    }
+    else {
+        return false;
+    }
+
+    //return false;
 }
 
 bool LEOcoinBridge::deleteAddress(QString address)
