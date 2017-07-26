@@ -757,7 +757,7 @@ bool WalletModel::changePassphrase(const SecureString &oldPass, const SecureStri
 
 bool WalletModel::backupWallet(const QString &filename)
 {
-    return BackupWallet(*wallet, filename.toLocal8Bit().data());
+    return BackupWallet(*wallet, filename.toStdString().data());
 }
 
 // Handlers for core signals

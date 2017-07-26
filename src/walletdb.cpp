@@ -7,6 +7,7 @@
 #include "wallet.h"
 #include <boost/version.hpp>
 #include <boost/filesystem.hpp>
+#include <boost/locale.hpp>
 
 using namespace std;
 namespace fs = boost::filesystem;
@@ -723,6 +724,10 @@ void ThreadFlushWalletDB(const std::string& strFile)
 
 bool BackupWallet(const CWallet& wallet, const string& strDest)
 {
+
+    std::locale::global(boost::locale::generator().generate(""));
+    fs::path::imbue(std::locale());
+
     if (!wallet.fFileBacked)
         return false;
     for (;;)
