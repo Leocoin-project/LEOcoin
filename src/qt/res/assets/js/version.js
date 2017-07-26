@@ -1,0 +1,1 @@
+var new_production_version='v3.0.6.0';

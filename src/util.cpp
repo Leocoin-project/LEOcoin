@@ -10,6 +10,7 @@
 #include "sync.h"
 #include "strlcpy.h"
 #include "version.h"
+#include "clientversion.h"
 #include "ui_interface.h"
 
 #include <boost/algorithm/string/join.hpp>
@@ -1385,7 +1386,7 @@ string FormatVersion(int nVersion)
 
 string FormatFullVersion()
 {
-    return CLIENT_BUILD;
+    return strprintf("%d.%d.%d.%d", CLIENT_VERSION_MAJOR, CLIENT_VERSION_MINOR, CLIENT_VERSION_REVISION,CLIENT_VERSION_BUILD);
 }
 
 // Format the subversion field according to BIP 14 spec (https://en.bitcoin.it/wiki/BIP_0014)

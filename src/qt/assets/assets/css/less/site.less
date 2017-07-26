@@ -1,0 +1,69 @@
+/*------------------------------------------------------------------
+# [Site]
+------------------------------------------------------------------*/
+
+html {
+	height: 100%;
+	font-size: 62.5%;
+	-webkit-overflow-scrolling: touch;
+	-webkit-tap-highlight-color: lighten(@base-color, 75%);
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25),
+only screen and ( min-device-pixel-ratio: 1.25),
+only screen and ( min-resolution: 200dpi),
+only screen and ( min-resolution: 1.25dppx) {
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: @base-font;
+	font-weight: 300;
+	.font-size;
+	line-height: @base-line-height;
+	color: @text-color;
+	background-image: url('../images/background.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: @body-bg-color;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+}
+
+.container {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+.page-wrapper {
+	position: relative;
+	clear: both;
+	.box-sizing();
+	//margin: 0 auto;
+	//max-width: @max-page-width;
+	padding-left: @spacer_mobile;
+	padding-right: @spacer_mobile;
+
+	@media @bp_480 {
+		padding-left: @spacer_mobile_landscape;
+		padding-right: @spacer_mobile_landscape;
+	}
+
+	@media @bp_768 {
+		padding-left: @spacer_tablet;
+		padding-right: @spacer_tablet;
+	}
+
+	@media @bp_1024 {
+		padding-left: @spacer_desktop;
+		padding-right: @spacer_desktop;
+	}
+}

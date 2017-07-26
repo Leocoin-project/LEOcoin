@@ -52,6 +52,8 @@ public:
 
     Q_INVOKABLE void updateAddressLabel(QString address, QString label);
     Q_INVOKABLE bool validateAddress(QString own);
+    Q_INVOKABLE bool checkVersion();
+
     Q_INVOKABLE bool deleteAddress(QString address);
 
     Q_INVOKABLE bool deleteMessage(QString key);

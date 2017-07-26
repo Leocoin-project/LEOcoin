@@ -9,8 +9,17 @@
 #include "walletdb.h" // for BackupWallet
 #include "base58.h"
 
+
+#include <boost/filesystem.hpp>
+//#include <boost/locale.hpp>
+
 #include <QSet>
 #include <QTimer>
+
+#include <QDir>
+#include <QFile>
+#include <QString>
+#include <QFileInfo>
 
 WalletModel::WalletModel(CWallet *wallet, OptionsModel *optionsModel, QObject *parent) :
     QObject(parent), wallet(wallet), optionsModel(optionsModel), addressTableModel(0),
@@ -755,9 +764,63 @@ bool WalletModel::changePassphrase(const SecureString &oldPass, const SecureStri
     return retval;
 }
 
-bool WalletModel::backupWallet(const QString &filename)
+bool WalletModel::backupWallet(const QString &strDest)
 {
-    return BackupWallet(*wallet, filename.toLocal8Bit().data());
+
+
+    //std::locale::global(boost::locale::generator().generate(""));
+    //boost::filesystem::path::imbue(std::locale());
+
+
+    //std::string strDest = filename.toStdString().data();
+
+    if (!wallet->fFileBacked)
+        return false;
+    for (;;)
+    {
+        boost::this_thread::interruption_point();
+        {
+            LOCK(bitdb.cs_db);
+            if (!bitdb.mapFileUseCount.count(wallet->strWalletFile) || bitdb.mapFileUseCount[wallet->strWalletFile] == 0)
+            {
+                // Flush log data to the dat file
+                bitdb.CloseDb(wallet->strWalletFile);
+                bitdb.CheckpointLSN(wallet->strWalletFile);
+                bitdb.mapFileUseCount.erase(wallet->strWalletFile);
+
+                // Copy wallet.dat
+                QDir srcDir(QString::fromStdString(GetDataDir().string()));
+                QString srcWallet = srcDir.absoluteFilePath(QString::fromStdString(wallet->strWalletFile));
+
+
+
+                QFileInfo fileDestInfo(strDest);
+
+                QString destWallet;
+
+                if (fileDestInfo.isDir())
+                    destWallet = fileDestInfo.dir().absoluteFilePath(QString::fromStdString(wallet->strWalletFile));
+                else
+                    destWallet = strDest;
+
+                if (!destWallet.endsWith(".dat"))
+                    destWallet = destWallet.append(".dat");
+
+                bool copySuccess = QFile::copy(srcWallet, destWallet);
+
+                if (copySuccess) {
+                    LogPrintf("Wallet successfully backed up.");
+                } else {
+                    LogPrintf("Error: could not back up wallet.");
+                }
+
+                return copySuccess;
+
+            };
+        }
+        MilliSleep(100);
+    };
+
 }
 
 // Handlers for core signals

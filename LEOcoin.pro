@@ -6,6 +6,7 @@ DEFINES += BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE
 CONFIG += no_include_pwd
 CONFIG += thread
 
+
 target.path = /usr/local/bin/
 INSTALLS += target
 
@@ -51,7 +52,7 @@ android {
     UI_DIR = build-android
 } else {
 
-    QT += widgets webkitwidgets
+    QT += widgets webkitwidgets network
 }
 
 build_macosx64 {

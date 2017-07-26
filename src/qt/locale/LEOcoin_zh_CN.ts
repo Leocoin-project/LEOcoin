@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="zh_CN">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -17,14 +19,7 @@
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
 Copyright © 2014-%1 The LEOcoin developers</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The BlackCoin developers
-Copyright © 2014-[CLIENT_LAST_COPYRIGHT] The LEOcoin developers</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
@@ -34,7 +29,7 @@ This is experimental software.
 Distributed under the MIT/X11 software license, see the accompanying file COPYING or &lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;) and cryptographic software written by Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) and UPnP software written by Thomas Bernard.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -111,7 +106,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+16"/>
         <source>Enable messaging</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+39"/>
@@ -588,7 +583,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+0"/>
         <location line="+12"/>
         <source>LEOcoin</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">LEOcoin Cash</translation>
     </message>
     <message>
         <location line="-10"/>
@@ -619,6 +614,2036 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+1"/>
         <source>Show splash screen on startup (default: 1)</source>
         <translation>登录时显示Logo界面 (默认开启)</translation>
+    </message>
+</context>
+<context>
+    <name>LEOcoinBridge</name>
+    <message>
+        <location filename="../LEOcoinbridge.cpp" line="+410"/>
+        <source>Incoming Message</source>
+        <translation>收到的消息</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>default</source>
+        <translation>默认</translation>
+    </message>
+    <message>
+        <location line="+58"/>
+        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>&lt;b&gt;%1&lt;/b&gt; to LEO %2 (%3)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <location line="+5"/>
+        <source>&lt;b&gt;%1&lt;/b&gt; LEO, ring size %2 to LEO %3 (%4)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <location line="+10"/>
+        <location line="+12"/>
+        <location line="+8"/>
+        <source>Error:</source>
+        <translation>错误：</translation>
+    </message>
+    <message>
+        <location line="-30"/>
+        <source>Unknown txn type detected %1.</source>
+        <translation>检测到未知的交易类型 %1。</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Input types must match for all recipients.</source>
+        <translation>输入类型必须与所有收款人相匹配。</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Ring sizes must match for all recipients.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Ring size outside range [%1, %2].</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <location line="+9"/>
+        <source>Confirm send coins</source>
+        <translation>确认发送货币</translation>
+    </message>
+    <message>
+        <location line="-9"/>
+        <source>Are you sure you want to send?
+Ring size of one is not anonymous, and harms the network.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <location line="+9"/>
+        <source> and </source>
+        <translation>和</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Are you sure you want to send %1?</source>
+        <translation>确认要发送 %1 ?</translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <location line="+25"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+6"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <source>Send Coins</source>
+        <translation>发送货币</translation>
+    </message>
+    <message>
+        <location line="-95"/>
+        <source>The change address is not valid, please recheck.</source>
+        <translation>零钱地址无效，请再检查。</translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <location line="+376"/>
+        <source>The recipient address is not valid, please recheck.</source>
+        <translation>收款人地址无效，请再检查。</translation>
+    </message>
+    <message>
+        <location line="-371"/>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>支付金额必须大于0。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>The amount exceeds your balance.</source>
+        <translation>金额超出您的余额。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
+        <translation>计入 %1 交易费后的金额超出您的余额。</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <location line="+365"/>
+        <source>Duplicate address found, can only send to each address once per send operation.</source>
+        <translation>发现重复的地址, 每次只能对同一地址发送一次。</translation>
+    </message>
+    <message>
+        <location line="-360"/>
+        <source>Error: Transaction creation failed.</source>
+        <translation>错误：交易创建失败。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>错误：交易被拒绝。可能由于钱包中部分金额已被使用，例如您使用了钱包数据的副本，在副本中某些金额已被使用，但在此处尚未被标记为已使用。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Error: Narration is too long.</source>
+        <translation>错误：记叙过长。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Error: Ring Size Error.</source>
+        <translation>错误：环签名的大小错误。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Error: Input Type Error.</source>
+        <translation>错误：输入类型错误。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Error: Must be in full mode to send anon.</source>
+        <translation>错误：必须在完整模式下发送匿名。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Error: Invalid Stealth Address.</source>
+        <translation>错误：隐密地址无效。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>The total exceeds your LEOcoin balance when the %1 transaction fee is included.</source>
+        <translation>计入 %1 交易费后的金额超出您的余额。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Error generating transaction.</source>
+        <translation>交易生成出现错误</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Error generating transaction: %1</source>
+        <translation>交易生成出现错误：%1</translation>
+    </message>
+    <message>
+        <location line="+304"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <source>Send Message</source>
+        <translation>发出信息</translation>
+    </message>
+    <message>
+        <location line="-14"/>
+        <source>The message can&apos;t be empty.</source>
+        <translation>信息不能空白。</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Error: Message creation failed.</source>
+        <translation>错误：信息创建失败。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Error: The message was rejected.</source>
+        <translation>错误：该信息被拒绝。</translation>
+    </message>
+    <message>
+        <location line="+98"/>
+        <source>Sanity Error!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Error: a sanity check prevented the transfer of a non-group private key, please close your wallet and report this error to the development team as soon as possible.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../bridgetranslations.h" line="+8"/>
+        <source>Overview</source>
+        <translation>概要</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Wallet</source>
+        <translation>钱包</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Send</source>
+        <translation>发送</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Receive</source>
+        <translation>接收</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Transactions</source>
+        <translation>交易</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Address Book</source>
+        <translation>地址簿</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Chat</source>
+        <translation>聊天</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Notifications</source>
+        <translation>消息通知</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Options</source>
+        <translation>选项
+</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Wallet Management</source>
+        <translation>钱包管理</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Add New Wallet</source>
+        <translation>添加新钱包</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Import Wallet</source>
+        <translation>导入钱包</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Advanced</source>
+        <translation>更多</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Backup</source>
+        <translation>备份</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Backup Wallet</source>
+        <translation>备份钱包</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Encrypt Wallet</source>
+        <translation>加密钱包</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Change Passphrase</source>
+        <translation>更改密码</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>(Un)lock Wallet</source>
+        <translation>解锁钱包</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Tools</source>
+        <translation>工具</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Chain Data</source>
+        <translation>链数据</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Block Explorer</source>
+        <translation>区块浏览器</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Sign Message</source>
+        <translation>签名消息</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Verify Message</source>
+        <translation>验证消息</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Debug</source>
+        <translation>调试</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>About LEOcoin</source>
+        <translation>关于暗影币</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>About QT</source>
+        <translation>关于QT</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>QR code</source>
+        <translation>二维码</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Address:</source>
+        <translation>地址：</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Label:</source>
+        <translation>标签：</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Narration:</source>
+        <translation>记叙：</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Amount:</source>
+        <translation>金额：</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>LEO</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>mLEO</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>µLEO</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Satoshi</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Add new receive address</source>
+        <translation>添加新接收地址</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Add Address</source>
+        <translation>新增地址</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Add a new contact</source>
+        <translation>新增联系人</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Address Lookup</source>
+        <translation>查找地址</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Address Type</source>
+        <translation>地址类型</translation>
+    </message>
+    <message>
+        <location line="-6"/>
+        <source>Normal</source>
+        <translation>一般</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Stealth</source>
+        <translation>隐藏</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Group</source>
+        <translation>群组</translation>
+    </message>
+    <message>
+        <location line="-5"/>
+        <source>BIP32</source>
+        <translation>BIP32</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Label</source>
+        <translation>标签</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Address</source>
+        <translation>地址</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Public Key</source>
+        <translation>公钥</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Transaction Hash</source>
+        <translation>交易哈希</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Recent Transactions</source>
+        <translation>最近交易</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Market</source>
+        <translation>市场</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Advanced Options</source>
+        <translation>更多选项</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Coin Control</source>
+        <translation>资金管理</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Make payment</source>
+        <translation>付款</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Balance transfer</source>
+        <translation>余额转帐</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Select Inputs</source>
+        <translation>选择输入</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Automatically selected</source>
+        <translation>自动选择</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Quantity:</source>
+        <translation>总量：</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Fee:</source>
+        <translation>手续费：</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>After Fee:</source>
+        <translation>付费后：</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bytes:</source>
+        <translation>字节：</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Priority:</source>
+        <translation>优先级：</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>LowOutput:</source>
+        <translation>低输出：</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Change:</source>
+        <translation>零钱：</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Custom change address</source>
+        <translation>自定零钱地址</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>From account</source>
+        <translation>己方帐户</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>PUBLIC</source>
+        <translation>公开</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>PRIVATE</source>
+        <translation>隐秘</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Balance:</source>
+        <translation>余额：</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Ring Size:</source>
+        <translation>环签名大小：</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>To account</source>
+        <translation>对方账户</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Pay to</source>
+        <translation>付款到：</translation>
+    </message>
+    <message>
+        <location line="+135"/>
+        <source>Tor connection offline</source>
+        <translation>洋葱路由器（Tor）处于离线状态</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>i2p connection offline</source>
+        <translation>隐形网计划（i2p）处于离线状态</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Wallet is encrypted and currently locked</source>
+        <translation>钱包已被加密，目前为上锁状态</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Wallet is syncing</source>
+        <translation>钱包同步中</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open chat list</source>
+        <translation>打开聊天清单</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>为此地址输入一个标签，以便将它添加到您的地址簿</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enter a address to add it to your address book</source>
+        <translation>输入一个地址，以便将它添加到您的地址簿</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Inputs</source>
+        <translation>输入</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Values</source>
+        <translation>数量</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Outputs</source>
+        <translation>输出</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enter a LEOcoin address to sign the message with (e.g. 8MfTCSnMvix9mVVNb2MGiEw92GpLrvzhVp)</source>
+        <translation>输入一个LEOcoin地址用以签名消息 (例: 8MfTCSnMvix9mVVNb2MGiEw92GpLrvzhVp)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enter the message you want to sign</source>
+        <translation>输入您要签名的信息</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Click sign message to generate signature</source>
+        <translation>点击“签名消息”以生成签名</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy the signed message signature</source>
+        <translation>复制已签名消息的签名</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enter a LEOcoin address to verify the message with (e.g. 8MfTCSnMvix9mVVNb2MGiEw92GpLrvzhVp)</source>
+        <translation>输入一个LEOcoin地址用以验证消息 (例: 8MfTCSnMvix9mVVNb2MGiEw92GpLrvzhVp)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enter the message you want to verify</source>
+        <translation>输入您要验证的信息</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enter a LEOcoin signature</source>
+        <translation>输入一个LEOcoin签名</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Paste signature from clipboard</source>
+        <translation>从剪贴板粘贴签名</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Your total balance</source>
+        <translation>您的总余额</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Balances overview</source>
+        <translation>余额概况</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Recent in/out transactions or stakes</source>
+        <translation>最近的进/出交易或权益增值</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Select inputs to spend</source>
+        <translation>选择要花费的输入</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Optional address to receive transaction change</source>
+        <translation>可选地址接收交易找零</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Choose from address book</source>
+        <translation>从地址簿选择</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Paste address from clipboard</source>
+        <translation>从剪贴板粘贴地址</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Remove this recipient</source>
+        <translation>清除接收者地址</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Current spendable send payment balance</source>
+        <translation>当前可用支付余额</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Current spendable balance to account</source>
+        <translation>帐户的当前可用余额</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>The address to transfer the balance to</source>
+        <translation>转移余额的地址</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The label for this address</source>
+        <translation>地址的标签</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Amount to transfer</source>
+        <translation>转让金额</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Send to multiple recipients at once</source>
+        <translation>一次发送给多个收款人</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Double click to edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Date and time that the transaction was received.</source>
+        <translation>接收到交易的时间</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Transaction status. Hover over this field to show number of confirmations.</source>
+        <translation>交易状态。 鼠标移到此区域可显示确认项数量。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Type of transaction.</source>
+        <translation>交易类别</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Destination address of transaction.</source>
+        <translation>交易目的地地址。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Short payment note.</source>
+        <translation>交易附註</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Amount removed from or added to balance.</source>
+        <translation>从余额添加或移除的金额。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The address to send the payment to  (e.g. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</source>
+        <translation>支付的地址 (例：SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Choose address from address book</source>
+        <translation>从地址簿选择</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enter a public key for the address above</source>
+        <translation>输入以上地址的公钥</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enter a label for this group</source>
+        <translation>为此群组输入一个标签</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Name for this Wallet</source>
+        <translation>此钱包标签</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enter a password</source>
+        <translation>输入一个密码</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Would you like to create a bip44 path?</source>
+        <translation>您要创建 bip44 路径吗？</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Your recovery phrase (Keep this safe!)</source>
+        <translation>您的恢复短语 (保管安全!)</translation>
+    </message>
+    <message>
+        <location line="-80"/>
+        <source>Recovery Phrase</source>
+        <translation>恢复短语</translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>Make Default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Activate/Deactivate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Set as Master</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Not staking because wallet is offline</source>
+        <translation type="unfinished">未进行权益增值，因为钱包处于离线状态</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>0 active connections to LEOcoin network</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>The address to send the payment to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enter a label for this address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enter a short note to send with payment (max 24 characters)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Wallet Name for recovered account</source>
+        <translation>恢复帐户的钱包名称</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enter the password for the wallet you are trying to recover</source>
+        <translation>输入您要恢复的钱包密码</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Is this a bip44 path?</source>
+        <translation>这是 bip44 路径吗？</translation>
+    </message>
+    <message>
+        <location line="-66"/>
+        <source>ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <location line="-122"/>
+        <source>Narration</source>
+        <translation type="unfinished">记叙</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Amount</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Default Stealth Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Add Recipient</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Clear All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Suggest Ring Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Send Payment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>RECEIVE</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Filter by type..</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Type</source>
+        <translation type="unfinished">类型</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Show QR Code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>New Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>TRANSACTIONS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Date</source>
+        <translation type="unfinished">日期</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>ADDRESSBOOK</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Delete</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Start Private Conversation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Public Key:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Start Conversation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Choose identity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Identity:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Start Group Conversation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Group name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Create Group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invite others</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Search</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invite others to group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invite to Group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invite</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>GROUP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>BOOK</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Start private conversation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Start group conversation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>CHAT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Leave Group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>CHAIN DATA</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Coin Value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Owned (Mature)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>System (Mature)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Spends</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Least Depth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>BLOCK EXPLORER</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Refresh</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Hash</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Timestamp</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Value Out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>OPTIONS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Main</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Network</source>
+        <translation type="unfinished">网络</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Display</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>I2P</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Tor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Start LEOcoin on system login</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Detach databases at shutdown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Pay transaction fee:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Most transactions are 1kB. Fee 0.01 recommended.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable Staking</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reserve:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Minimum Stake Interval</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Minimum Ring size:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Maximum Ring size:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Automatically select ring size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable Secure messaging</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Thin Mode (Requires Restart)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Thin Full Index</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Thin Index Window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Map port using UPnP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Connect through SOCKS proxy:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Details</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Proxy IP:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Port:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>SOCKS Version:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Minimize to the tray instead of the taskbar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Minimize on close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>User Interface language:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Unit to show amounts in:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rows per page:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Display addresses in transaction list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Notifications:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Visible Transaction Types:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>I2P (coming soon)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>TOR (coming soon)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Apply</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Ok</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Lets create a New Wallet and Account to get you started!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Wallet Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Add an optional Password to secure the Recovery Phrase (shown on next page)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Would you like to create a Multi-Account HD Key? (BIP44)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Language</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>English</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>French</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Japanese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Spanish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Chinese (Simplified)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Chinese (Traditional)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Next Step</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Write your Wallet Recovery Phrase</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Important!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>You need the Wallet Recovery Phrase to restore this wallet. Write it down and keep them somewhere safe.
+                                                          You will be asked to confirm the Wallet Recovery Phrase in the next screen to ensure you have written it down correctly</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Back</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Please confirm your Wallet Recovery Phrase</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Congratulations! You have successfully created a New Wallet and Account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>You can now use your Account to send and receive funds :)
+                            Remember to keep your Wallet Recovery Phrase and Password (if set) safe in case you ever need to recover your wallet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Lets import your Wallet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The Wallet Recovery Phrase could require a password to be imported</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Is this a Multi-Account HD Key (BIP44)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Recovery Phrase (Usually 24 words)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Congratulations! You have successfully imported your Wallet from your Recovery Phrase</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>You can now use your Account to send and receive funds :)
+                            Remember to keep your Wallet Recovery Phrase and Password safe in case you ever need to recover your wallet again!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Accounts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Name</source>
+        <translation type="unfinished">名称</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Created</source>
+        <translation>创建时间</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Active Account</source>
+        <translation>活跃账户</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Default</source>
+        <translation>默认</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Wallet Keys</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Path</source>
+        <translation>路径</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Active</source>
+        <translation>活跃</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Master</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+61"/>
+        <source>LEOcoin Notification</source>
+        <translation>LEO币通知</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>A new version of the LEOcoin wallet is available.</source>
+        <translation> </translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Please go to</source>
+        <translation>新版本的LEOcoin电子钱包已可下载，请到</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>and upgrade to the latest version.</source>
+        <translation>进行安装升级。</translation>
+    </message>
+</context>
+<context>
+    <name>LEOcoinGUI</name>
+    <message>
+        <location filename="../LEOcoin.cpp" line="+111"/>
+        <source>A fatal error occurred. LEOcoin can no longer continue safely and will quit.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../LEOcoingui.cpp" line="+89"/>
+        <location line="+178"/>
+        <source>LEOcoin</source>
+        <translation type="unfinished">LEOcoin Cash</translation>
+    </message>
+    <message>
+        <location line="-178"/>
+        <source>Client</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+90"/>
+        <source>E&amp;xit</source>
+        <translation>退出(&amp;X)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Quit application</source>
+        <translation>退出程序</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;About LEOcoin</source>
+        <translation>关于LEOcoin Cash(&amp;A)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Show information about LEOcoin</source>
+        <translation>显示关于LEOcoin Cash的信息</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>About &amp;Qt</source>
+        <translation>关于 &amp;Qt</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Show information about Qt</source>
+        <translation>显示关于Qt的信息</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>&amp;Options...</source>
+        <translation>选项(&amp;O)...</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Modify configuration options for LEOcoin</source>
+        <translation>更改LEOcoin Cash设置选项</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>&amp;Show / Hide</source>
+        <translation>显示 / 隐藏(&amp;S)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>&amp;Encrypt Wallet...</source>
+        <translation>加密钱包(&amp;E)...</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Encrypt or decrypt wallet</source>
+        <translation>加密/解密钱包</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>&amp;Backup Wallet...</source>
+        <translation>备份钱包(&amp;B)...</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Backup wallet to another location</source>
+        <translation>备份钱包到其他文件夹</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>&amp;Change Passphrase...</source>
+        <translation>更改密码(&amp;C)...</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Change the passphrase used for wallet encryption</source>
+        <translation>更改钱包加密口令</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>&amp;Unlock Wallet...</source>
+        <translation>解锁钱包(&amp;U)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Unlock wallet</source>
+        <translation>解锁钱包</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>&amp;Lock Wallet</source>
+        <translation>锁定钱包(&amp;L)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Lock wallet</source>
+        <translation>钱包上锁</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>&amp;Debug window</source>
+        <translation>调试窗口(&amp;D)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open debugging and diagnostic console</source>
+        <translation>打开调试和诊断控制台</translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>&amp;File</source>
+        <translation>文件(&amp;F)</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>&amp;Settings</source>
+        <translation>设置(&amp;S)</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>&amp;Help</source>
+        <translation>帮助(&amp;H)</translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Wallet</source>
+        <translation>钱包</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <location line="+9"/>
+        <source>[testnet]</source>
+        <translation>[测试网络]</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <location line="+74"/>
+        <source>LEOcoin client</source>
+        <translation>LEOcoin 平台</translation>
+    </message>
+    <message numerus="yes">
+        <location line="+63"/>
+        <source>%n active connection(s) to LEOcoin network</source>
+        <translation>
+            <numerusform>%n个活动连接在影子网络传递数据</numerusform>
+        </translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <source>block</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>header</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>blocks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>headers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <location line="+22"/>
+        <source>Synchronizing with network...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-20"/>
+        <source>Downloading filtered blocks...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>~%1 filtered block(s) remaining (%2% done).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Importing blocks...</source>
+        <translation>正在导入区块数据 ...</translation>
+    </message>
+    <message numerus="yes">
+        <location line="+5"/>
+        <source>~%n block(s) remaining</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <location line="+4"/>
+        <source>Imported</source>
+        <translation>导入</translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <location line="+4"/>
+        <source>Downloaded</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-3"/>
+        <source>%1 of %2 %3 of transaction history (%4% done).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>%1 blocks of transaction history.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <location line="+23"/>
+        <source>%n second(s) ago</source>
+        <translation>
+            <numerusform>%n 秒前</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location line="+4"/>
+        <source>%n minute(s) ago</source>
+        <translation>
+            <numerusform>%n 分钟前</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location line="+4"/>
+        <source>%n hour(s) ago</source>
+        <translation>
+            <numerusform>%n 小时前</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location line="+3"/>
+        <source>%n day(s) ago</source>
+        <translation>
+            <numerusform>%n 日前</numerusform>
+        </translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Up to date</source>
+        <translation>更新完毕</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Catching up...</source>
+        <translation>更新中...</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Last received %1 was generated %2.</source>
+        <translation>最后收到的%1于%2生成</translation>
+    </message>
+    <message>
+        <location line="+59"/>
+        <source>This transaction is over the size limit.  You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network.  Do you want to pay the fee?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Confirm transaction fee</source>
+        <translation>手续费确认</translation>
+    </message>
+    <message>
+        <location line="+28"/>
+        <source>Sent transaction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Incoming transaction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Date: %1
+Amount: %2
+Type: %3
+Address: %4
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <location line="+15"/>
+        <source>Incoming Message</source>
+        <translation>收到的消息</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Date: %1
+From Address: %2
+To Address: %3
+Message: %4
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+45"/>
+        <location line="+23"/>
+        <source>URI handling</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-23"/>
+        <location line="+23"/>
+        <source>URI can not be parsed! This can be caused by an invalid LEOcoin address or malformed URI parameters.</source>
+        <translation>无法解析URI：无效的LEOcoin Cash地址或错误的URI参数。</translation>
+    </message>
+    <message>
+        <location line="+42"/>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for staking and messaging only.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for messaging only.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for staking only.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for staking only</source>
+        <translation type="vanished">钱包已被&lt;b&gt;加密&lt;/b&gt;，目前为&lt;b&gt;解锁&lt;/b&gt;状态，只允许权益增值</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
+        <translation>钱包已被&lt;b&gt;加密&lt;/b&gt;，目前为&lt;b&gt;解锁&lt;/b&gt;状态</translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
+        <translation>钱包已被&lt;b&gt;加密&lt;/b&gt;，目前为&lt;b&gt;锁定&lt;/b&gt;状态</translation>
+    </message>
+    <message>
+        <location line="+33"/>
+        <source>Backup Wallet</source>
+        <translation>备份钱包</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Wallet Data (*.dat)</source>
+        <translation>钱包数据文件(*.dat)</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Backup Failed</source>
+        <translation>备份失败</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>There was an error trying to save the wallet data to the new location.</source>
+        <translation>试图将钱包地址保存到新位置时出现错误</translation>
+    </message>
+    <message>
+        <location line="+48"/>
+        <source>Lock Wallet</source>
+        <translation>钱包上锁</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Error: Wallet must first be encrypted to be locked.</source>
+        <translation>错误：钱包必须先加密才能上锁</translation>
+    </message>
+    <message numerus="yes">
+        <location line="+69"/>
+        <source>%n second(s)</source>
+        <translation>
+            <numerusform>%n 秒</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location line="+1"/>
+        <source>%n minute(s)</source>
+        <translation>
+            <numerusform>%n 分钟</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location line="+1"/>
+        <source>%n hour(s)</source>
+        <translation>
+            <numerusform>%n 小时</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location line="+1"/>
+        <source>%n day(s)</source>
+        <translation>
+            <numerusform>%n 日</numerusform>
+        </translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Staking.
+Your weight is %1
+Network weight is %2
+Expected time to earn reward is %3</source>
+        <translation>正进行权益增值
+您的重量 %1
+网络重量 %2
+预期下一奖励距离 %3</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Not staking because wallet is in thin mode</source>
+        <translation>未进行权益增值，因为钱包在輕模式</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Not staking, staking is disabled</source>
+        <translation>未进行权益增值，因为权益增值设定为停用。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Not staking because wallet is locked</source>
+        <translation>未进行权益增值，因为钱包已锁定</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Not staking because wallet is offline</source>
+        <translation>未进行权益增值，因为钱包处于离线状态</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Not staking because wallet is syncing</source>
+        <translation>未进行权益增值，因为钱包正同步中</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Not staking because you don&apos;t have mature coins</source>
+        <translation>未进行权益增值，因为钱包中没有成熟的LEOcoin Cash</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Not staking</source>
+        <translation>未进行权益增值</translation>
+    </message>
+    <message>
+        <location filename="../transactionrecord.cpp" line="+23"/>
+        <source>Received with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Received from</source>
+        <translation>收款来自</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Sent to</source>
+        <translation>发送给</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Payment to yourself</source>
+        <translation>付款给自己</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Mined</source>
+        <translation>挖矿所得</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Received LEOcoin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Sent LEOcoin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Other</source>
+        <translation>其他</translation>
     </message>
 </context>
 <context>
@@ -680,7 +2705,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start LEOcoin: click-to-pay handler</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -909,7 +2934,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+23"/>
         <source>Ban Score</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+23"/>
@@ -1043,2017 +3068,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>传出</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+7"/>
         <source>Unknown</source>
         <translation>未知</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <location line="+1"/>
         <source>Fetching...</source>
-        <translation>获取中...</translation>
-    </message>
-</context>
-<context>
-    <name>LEOcoinBridge</name>
-    <message>
-        <location filename="../LEOcoinbridge.cpp" line="+410"/>
-        <source>Incoming Message</source>
-        <translation>收到的消息</translation>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>default</source>
-        <translation>默认</translation>
-    </message>
-    <message>
-        <location line="+58"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; to LEO %2 (%3)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; LEO, ring size %2 to LEO %3 (%4)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; LEO, ring size %2 to LEO %3 (%4)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <location line="+10"/>
-        <location line="+12"/>
-        <location line="+8"/>
-        <source>Error:</source>
-        <translation>错误：</translation>
-    </message>
-    <message>
-        <location line="-30"/>
-        <source>Unknown txn type detected %1.</source>
-        <translation>检测到未知的交易类型 %1。</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>Input types must match for all recipients.</source>
-        <translation>输入类型必须与所有收款人相匹配。</translation>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>Ring sizes must match for all recipients.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Ring size outside range [%1, %2].</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <location line="+9"/>
-        <source>Confirm send coins</source>
-        <translation>确认发送货币</translation>
-    </message>
-    <message>
-        <location line="-9"/>
-        <source>Are you sure you want to send?
-Ring size of one is not anonymous, and harms the network.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <location line="+9"/>
-        <source> and </source>
-        <translation>和</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Are you sure you want to send %1?</source>
-        <translation>确认要发送 %1 ?</translation>
-    </message>
-    <message>
-        <location line="+15"/>
-        <location line="+25"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+6"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <source>Send Coins</source>
-        <translation>发送货币</translation>
-    </message>
-    <message>
-        <location line="-95"/>
-        <source>The change address is not valid, please recheck.</source>
-        <translation>零钱地址无效，请再检查。</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <location line="+376"/>
-        <source>The recipient address is not valid, please recheck.</source>
-        <translation>收款人地址无效，请再检查。</translation>
-    </message>
-    <message>
-        <location line="-371"/>
-        <source>The amount to pay must be larger than 0.</source>
-        <translation>支付金额必须大于0。</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The amount exceeds your balance.</source>
-        <translation>金额超出您的余额。</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>计入 %1 交易费后的金额超出您的余额。</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <location line="+365"/>
-        <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>发现重复的地址, 每次只能对同一地址发送一次。</translation>
-    </message>
-    <message>
-        <location line="-360"/>
-        <source>Error: Transaction creation failed.</source>
-        <translation>错误：交易创建失败。</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>错误：交易被拒绝。可能由于钱包中部分金额已被使用，例如您使用了钱包数据的副本，在副本中某些金额已被使用，但在此处尚未被标记为已使用。</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: Narration is too long.</source>
-        <translation>错误：记叙过长。</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: Ring Size Error.</source>
-        <translation>错误：环签名的大小错误。</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: Input Type Error.</source>
-        <translation>错误：输入类型错误。</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: Must be in full mode to send anon.</source>
-        <translation>错误：必须在完整模式下发送匿名。</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: Invalid Stealth Address.</source>
-        <translation>错误：隐密地址无效。</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The total exceeds your LEOcoin balance when the %1 transaction fee is included.</source>
-        <translation>计入 %1 交易费后的金额超出您的余额。</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error generating transaction.</source>
-        <translation>交易生成出现错误</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error generating transaction: %1</source>
-        <translation>交易生成出现错误：%1</translation>
-    </message>
-    <message>
-        <location line="+304"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <source>Send Message</source>
-        <translation>发出信息</translation>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>The message can&apos;t be empty.</source>
-        <translation>信息不能空白。</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>Error: Message creation failed.</source>
-        <translation>错误：信息创建失败。</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: The message was rejected.</source>
-        <translation>错误：该信息被拒绝。</translation>
-    </message>
-    <message>
-        <location line="+98"/>
-        <source>Sanity Error!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error: a sanity check prevented the transfer of a non-group private key, please close your wallet and report this error to the development team as soon as possible.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bridgetranslations.h" line="+8"/>
-        <source>Overview</source>
-        <translation>概要</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Wallet</source>
-        <translation>钱包</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Send</source>
-        <translation>发送</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Receive</source>
-        <translation>接收</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Transactions</source>
-        <translation>交易</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Address Book</source>
-        <translation>地址簿</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Chat</source>
-        <translation>聊天</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Notifications</source>
-        <translation>消息通知</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Options</source>
-        <translation>选项
-</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Wallet Management</source>
-        <translation>钱包管理</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Add New Wallet</source>
-        <translation>添加新钱包</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Import Wallet</source>
-        <translation>导入钱包</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Advanced</source>
-        <translation>更多</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Backup</source>
-        <translation>备份</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Backup Wallet</source>
-        <translation>备份钱包</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Encrypt Wallet</source>
-        <translation>加密钱包</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Change Passphrase</source>
-        <translation>更改密码</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>(Un)lock Wallet</source>
-        <translation>解锁钱包</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Tools</source>
-        <translation>工具</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Chain Data</source>
-        <translation>链数据</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Block Explorer</source>
-        <translation>区块浏览器</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Sign Message</source>
-        <translation>签名消息</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Verify Message</source>
-        <translation>验证消息</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Debug</source>
-        <translation>调试</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>About LEOcoin</source>
-        <translation>关于暗影币</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>About QT</source>
-        <translation>关于QT</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>QR code</source>
-        <translation>二维码</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Address:</source>
-        <translation>地址：</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Label:</source>
-        <translation>标签：</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Narration:</source>
-        <translation>记叙：</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Amount:</source>
-        <translation>金额：</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>LEO</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>mLEO</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>µLEO</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Satoshi</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Add new receive address</source>
-        <translation>添加新接收地址</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Add Address</source>
-        <translation>新增地址</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Add a new contact</source>
-        <translation>新增联系人</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Address Lookup</source>
-        <translation>查找地址</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Address Type</source>
-        <translation>地址类型</translation>
-    </message>
-    <message>
-        <location line="-6"/>
-        <source>Normal</source>
-        <translation>一般</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Stealth</source>
-        <translation>隐藏</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Group</source>
-        <translation>群组</translation>
-    </message>
-    <message>
-        <location line="-5"/>
-        <source>BIP32</source>
-        <translation>BIP32</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Label</source>
-        <translation>标签</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Address</source>
-        <translation>地址</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Public Key</source>
-        <translation>公钥</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Transaction Hash</source>
-        <translation>交易哈希</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Recent Transactions</source>
-        <translation>最近交易</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Market</source>
-        <translation>市场</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Advanced Options</source>
-        <translation>更多选项</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Coin Control</source>
-        <translation>资金管理</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Make payment</source>
-        <translation>付款</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Balance transfer</source>
-        <translation>余额转帐</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Select Inputs</source>
-        <translation>选择输入</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Automatically selected</source>
-        <translation>自动选择</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Quantity:</source>
-        <translation>总量：</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Fee:</source>
-        <translation>手续费：</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>After Fee:</source>
-        <translation>付费后：</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Bytes:</source>
-        <translation>字节：</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Priority:</source>
-        <translation>优先级：</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>LowOutput:</source>
-        <translation>低输出：</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Change:</source>
-        <translation>零钱：</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Custom change address</source>
-        <translation>自定零钱地址</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>From account</source>
-        <translation>己方帐户</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>PUBLIC</source>
-        <translation>公开</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>PRIVATE</source>
-        <translation>隐秘</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Balance:</source>
-        <translation>余额：</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Ring Size:</source>
-        <translation>环签名大小：</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>To account</source>
-        <translation>对方账户</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Pay to</source>
-        <translation>付款到：</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+135"/>
-        <source>Tor connection offline</source>
-        <translation>洋葱路由器（Tor）处于离线状态</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>i2p connection offline</source>
-        <translation>隐形网计划（i2p）处于离线状态</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Wallet is encrypted and currently locked</source>
-        <translation>钱包已被加密，目前为上锁状态</translation>
-    </message>
-    <message>
-        <source>Not staking because wallet is locked</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Wallet is syncing</source>
-        <translation>钱包同步中</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open chat list</source>
-        <translation>打开聊天清单</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>为此地址输入一个标签，以便将它添加到您的地址簿</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enter a address to add it to your address book</source>
-        <translation>输入一个地址，以便将它添加到您的地址簿</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Inputs</source>
-        <translation>输入</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Values</source>
-        <translation>数量</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Outputs</source>
-        <translation>输出</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enter a LEOcoin address to sign the message with (e.g. 8MfTCSnMvix9mVVNb2MGiEw92GpLrvzhVp)</source>
-        <translation>输入一个LEOcoin地址用以签名消息 (例: 8MfTCSnMvix9mVVNb2MGiEw92GpLrvzhVp)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enter the message you want to sign</source>
-        <translation>输入您要签名的信息</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Click sign message to generate signature</source>
-        <translation>点击“签名消息”以生成签名</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy the signed message signature</source>
-        <translation>复制已签名消息的签名</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enter a LEOcoin address to verify the message with (e.g. 8MfTCSnMvix9mVVNb2MGiEw92GpLrvzhVp)</source>
-        <translation>输入一个LEOcoin地址用以验证消息 (例: 8MfTCSnMvix9mVVNb2MGiEw92GpLrvzhVp)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enter the message you want to verify</source>
-        <translation>输入您要验证的信息</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enter a LEOcoin signature</source>
-        <translation>输入一个LEOcoin签名</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Paste signature from clipboard</source>
-        <translation>从剪贴板粘贴签名</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Your total balance</source>
-        <translation>您的总余额</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Balances overview</source>
-        <translation>余额概况</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Recent in/out transactions or stakes</source>
-        <translation>最近的进/出交易或权益增值</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Select inputs to spend</source>
-        <translation>选择要花费的输入</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Optional address to receive transaction change</source>
-        <translation>可选地址接收交易找零</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Choose from address book</source>
-        <translation>从地址簿选择</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Paste address from clipboard</source>
-        <translation>从剪贴板粘贴地址</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Remove this recipient</source>
-        <translation>清除接收者地址</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Current spendable send payment balance</source>
-        <translation>当前可用支付余额</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Current spendable balance to account</source>
-        <translation>帐户的当前可用余额</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>The address to transfer the balance to</source>
-        <translation>转移余额的地址</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>The label for this address</source>
-        <translation>地址的标签</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Amount to transfer</source>
-        <translation>转让金额</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Send to multiple recipients at once</source>
-        <translation>一次发送给多个收款人</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Double click to edit</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Date and time that the transaction was received.</source>
-        <translation>接收到交易的时间</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>交易状态。 鼠标移到此区域可显示确认项数量。</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Type of transaction.</source>
-        <translation>交易类别</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Destination address of transaction.</source>
-        <translation>交易目的地地址。</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Short payment note.</source>
-        <translation>交易附註</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Amount removed from or added to balance.</source>
-        <translation>从余额添加或移除的金额。</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>The address to send the payment to  (e.g. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</source>
-        <translation>支付的地址 (例：SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Choose address from address book</source>
-        <translation>从地址簿选择</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enter a public key for the address above</source>
-        <translation>输入以上地址的公钥</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enter a label for this group</source>
-        <translation>为此群组输入一个标签</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Name for this Wallet</source>
-        <translation>此钱包标签</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enter a password</source>
-        <translation>输入一个密码</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Would you like to create a bip44 path?</source>
-        <translation>您要创建 bip44 路径吗？</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Your recovery phrase (Keep this safe!)</source>
-        <translation>您的恢复短语 (保管安全!)</translation>
-    </message>
-    <message>
-        <location line="-80"/>
-        <source>Recovery Phrase</source>
-        <translation>恢复短语</translation>
-    </message>
-    <message>
-        <location line="+26"/>
-        <source>Make Default</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Activate/Deactivate</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Set as Master</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Not staking because wallet is offline</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>0 active connections to LEOcoin network</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+26"/>
-        <source>The address to send the payment to</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enter a label for this address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enter a short note to send with payment (max 24 characters)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+20"/>
-        <source>Wallet Name for recovered account</source>
-        <translation>恢复帐户的钱包名称</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enter the password for the wallet you are trying to recover</source>
-        <translation>输入您要恢复的钱包密码</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Is this a bip44 path?</source>
-        <translation>这是 bip44 路径吗？</translation>
-    </message>
-    <message>
-        <location line="-66"/>
-        <source>ID</source>
-        <translation>ID</translation>
-    </message>
-    <message>
-        <location line="-122"/>
-        <source>Narration</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Amount</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Default Stealth Address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Add Recipient</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Clear All</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Suggest Ring Size</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Send Payment</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>RECEIVE</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Filter by type..</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Type</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show QR Code</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>New Address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy Address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>TRANSACTIONS</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Date</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>ADDRESSBOOK</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Delete</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Start Private Conversation</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Name:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Public Key:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Start Conversation</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Choose identity</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Identity:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Start Group Conversation</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Group name:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Create Group</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invite others</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Search</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invite others to group</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invite to Group</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invite</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>GROUP</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>BOOK</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Start private conversation</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Start group conversation</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>CHAT</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Leave Group</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>CHAIN DATA</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Coin Value</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Owned (Mature)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>System (Mature)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Spends</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Least Depth</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>BLOCK EXPLORER</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Refresh</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Hash</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Height</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Timestamp</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Value Out</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>OPTIONS</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Main</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Network</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Window</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Display</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>I2P</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Tor</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Start LEOcoin on system login</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Detach databases at shutdown</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Pay transaction fee:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Most transactions are 1kB. Fee 0.01 recommended.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable Staking</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Reserve:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Minimum Stake Interval</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Minimum Ring size:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Maximum Ring size:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Automatically select ring size</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable Secure messaging</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Thin Mode (Requires Restart)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Thin Full Index</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Thin Index Window</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Map port using UPnP</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Connect through SOCKS proxy:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Details</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Proxy IP:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Port:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>SOCKS Version:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Minimize to the tray instead of the taskbar</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Minimize on close</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>User Interface language:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Unit to show amounts in:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Rows per page:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Display addresses in transaction list</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Notifications:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Visible Transaction Types:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>I2P (coming soon)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>TOR (coming soon)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Cancel</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Apply</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Ok</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Lets create a New Wallet and Account to get you started!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Wallet Name</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Password</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Add an optional Password to secure the Recovery Phrase (shown on next page)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Would you like to create a Multi-Account HD Key? (BIP44)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Language</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>English</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>French</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Japanese</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Spanish</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Chinese (Simplified)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Chinese (Traditional)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Next Step</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Write your Wallet Recovery Phrase</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Important!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>You need the Wallet Recovery Phrase to restore this wallet. Write it down and keep them somewhere safe.
-                                                          You will be asked to confirm the Wallet Recovery Phrase in the next screen to ensure you have written it down correctly</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Back</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Please confirm your Wallet Recovery Phrase</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Congratulations! You have successfully created a New Wallet and Account</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>You can now use your Account to send and receive funds :)
-                            Remember to keep your Wallet Recovery Phrase and Password (if set) safe in case you ever need to recover your wallet</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Lets import your Wallet</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>The Wallet Recovery Phrase could require a password to be imported</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Is this a Multi-Account HD Key (BIP44)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Recovery Phrase (Usually 24 words)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Congratulations! You have successfully imported your Wallet from your Recovery Phrase</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>You can now use your Account to send and receive funds :)
-                            Remember to keep your Wallet Recovery Phrase and Password safe in case you ever need to recover your wallet again!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Accounts</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Name</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Created</source>
-        <translation>创建时间</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Active Account</source>
-        <translation>活跃账户</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Default</source>
-        <translation>默认</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Wallet Keys</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Path</source>
-        <translation>路径</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Active</source>
-        <translation>活跃</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Master</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
-<context>
-    <name>LEOcoinGUI</name>
-    <message>
-        <location filename="../LEOcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. LEOcoin can no longer continue safely and will quit.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../LEOcoingui.cpp" line="+89"/>
-        <location line="+178"/>
-        <source>LEOcoin</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-178"/>
-        <source>Client</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+90"/>
-        <source>E&amp;xit</source>
-        <translation>退出(&amp;X)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Quit application</source>
-        <translation>退出程序</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;About LEOcoin</source>
-        <translation>关于LEOcoin Cash(&amp;A)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show information about LEOcoin</source>
-        <translation>显示关于LEOcoin Cash的信息</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>About &amp;Qt</source>
-        <translation>关于 &amp;Qt</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show information about Qt</source>
-        <translation>显示关于Qt的信息</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>&amp;Options...</source>
-        <translation>选项(&amp;O)...</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Modify configuration options for LEOcoin</source>
-        <translation>更改LEOcoin Cash设置选项</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>&amp;Show / Hide</source>
-        <translation>显示 / 隐藏(&amp;S)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>&amp;Encrypt Wallet...</source>
-        <translation>加密钱包(&amp;E)...</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Encrypt or decrypt wallet</source>
-        <translation>加密/解密钱包</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>&amp;Backup Wallet...</source>
-        <translation>备份钱包(&amp;B)...</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Backup wallet to another location</source>
-        <translation>备份钱包到其他文件夹</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>&amp;Change Passphrase...</source>
-        <translation>更改密码(&amp;C)...</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Change the passphrase used for wallet encryption</source>
-        <translation>更改钱包加密口令</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>&amp;Unlock Wallet...</source>
-        <translation>解锁钱包(&amp;U)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Unlock wallet</source>
-        <translation>解锁钱包</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>&amp;Lock Wallet</source>
-        <translation>锁定钱包(&amp;L)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Lock wallet</source>
-        <translation>钱包上锁</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>&amp;Debug window</source>
-        <translation>调试窗口(&amp;D)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open debugging and diagnostic console</source>
-        <translation>打开调试和诊断控制台</translation>
-    </message>
-    <message>
-        <location line="+26"/>
-        <source>&amp;File</source>
-        <translation>文件(&amp;F)</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>&amp;Settings</source>
-        <translation>设置(&amp;S)</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>&amp;Help</source>
-        <translation>帮助(&amp;H)</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Wallet</source>
-        <translation>钱包</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <location line="+9"/>
-        <source>[testnet]</source>
-        <translation>[测试网络]</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <location line="+74"/>
-        <source>LEOcoin client</source>
-        <translation>LEOcoin 平台</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+63"/>
-        <source>%n active connection(s) to LEOcoin network</source>
-        <translation><numerusform>%n个活动连接在影子网络传递数据</numerusform></translation>
-    </message>
-    <message>
-        <location line="+18"/>
-        <source>block</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>header</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>blocks</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>headers</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <location line="+22"/>
-        <source>Synchronizing with network...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-20"/>
-        <source>Downloading filtered blocks...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>~%1 filtered block(s) remaining (%2% done).</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Importing blocks...</source>
-        <translation>正在导入区块数据 ...</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+5"/>
-        <source>~%n block(s) remaining</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <location line="+4"/>
-        <source>Imported</source>
-        <translation>导入</translation>
-    </message>
-    <message>
-        <location line="-4"/>
-        <location line="+4"/>
-        <source>Downloaded</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-3"/>
-        <source>%1 of %2 %3 of transaction history (%4% done).</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>%1 blocks of transaction history.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location line="+23"/>
-        <source>%n second(s) ago</source>
-        <translation><numerusform>%n 秒前</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n minute(s) ago</source>
-        <translation><numerusform>%n 分钟前</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n hour(s) ago</source>
-        <translation><numerusform>%n 小时前</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+3"/>
-        <source>%n day(s) ago</source>
-        <translation><numerusform>%n 日前</numerusform></translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Up to date</source>
-        <translation>更新完毕</translation>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>Catching up...</source>
-        <translation>更新中...</translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Last received %1 was generated %2.</source>
-        <translation>最后收到的%1于%2生成</translation>
-    </message>
-    <message>
-        <location line="+59"/>
-        <source>This transaction is over the size limit.  You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network.  Do you want to pay the fee?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Confirm transaction fee</source>
-        <translation>手续费确认</translation>
-    </message>
-    <message>
-        <location line="+28"/>
-        <source>Sent transaction</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Incoming transaction</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Date: %1
-Amount: %2
-Type: %3
-Address: %4
-</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+16"/>
-        <location line="+15"/>
-        <source>Incoming Message</source>
-        <translation>收到的消息</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Date: %1
-From Address: %2
-To Address: %3
-Message: %4
-</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+45"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid LEOcoin address or malformed URI parameters.</source>
-        <translation>无法解析URI：无效的LEOcoin Cash地址或错误的URI参数。</translation>
-    </message>
-    <message>
-        <location line="+42"/>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for staking and messaging only.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for messaging only.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for staking only.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for staking only</source>
-        <translation type="vanished">钱包已被&lt;b&gt;加密&lt;/b&gt;，目前为&lt;b&gt;解锁&lt;/b&gt;状态，只允许权益增值</translation>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>钱包已被&lt;b&gt;加密&lt;/b&gt;，目前为&lt;b&gt;解锁&lt;/b&gt;状态</translation>
-    </message>
-    <message>
-        <location line="+27"/>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>钱包已被&lt;b&gt;加密&lt;/b&gt;，目前为&lt;b&gt;锁定&lt;/b&gt;状态</translation>
-    </message>
-    <message>
-        <location line="+33"/>
-        <source>Backup Wallet</source>
-        <translation>备份钱包</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Wallet Data (*.dat)</source>
-        <translation>钱包数据文件(*.dat)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Backup Failed</source>
-        <translation>备份失败</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>试图将钱包地址保存到新位置时出现错误</translation>
-    </message>
-    <message>
-        <location line="+48"/>
-        <source>Lock Wallet</source>
-        <translation>钱包上锁</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error: Wallet must first be encrypted to be locked.</source>
-        <translation>错误：钱包必须先加密才能上锁</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+69"/>
-        <source>%n second(s)</source>
-        <translation><numerusform>%n 秒</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+1"/>
-        <source>%n minute(s)</source>
-        <translation><numerusform>%n 分钟</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+1"/>
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n 小时</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+1"/>
-        <source>%n day(s)</source>
-        <translation><numerusform>%n 日</numerusform></translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>Staking.
-Your weight is %1
-Network weight is %2
-Expected time to earn reward is %3</source>
-        <translation>正进行权益增值
-您的重量 %1
-网络重量 %2
-预期下一奖励距离 %3</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Not staking because wallet is in thin mode</source>
-        <translation>未进行权益增值，因为钱包在輕模式</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Not staking, staking is disabled</source>
-        <translation>未进行权益增值，因为权益增值设定为停用。</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Not staking because wallet is locked</source>
-        <translation>未进行权益增值，因为钱包已锁定</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Not staking because wallet is offline</source>
-        <translation>未进行权益增值，因为钱包处于离线状态</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Not staking because wallet is syncing</source>
-        <translation>未进行权益增值，因为钱包正同步中</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
-        <translation>未进行权益增值，因为钱包中没有成熟的LEOcoin Cash</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Not staking</source>
-        <translation>未进行权益增值</translation>
-    </message>
-    <message>
-        <location filename="../transactionrecord.cpp" line="+23"/>
-        <source>Received with</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Received from</source>
-        <translation>收款来自</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Sent to</source>
-        <translation>发送给</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Payment to yourself</source>
-        <translation>付款给自己</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Mined</source>
-        <translation>挖矿所得</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Received LEOcoin</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Sent LEOcoin</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Other</source>
-        <translation>其他</translation>
+        <translation type="vanished">获取中...</translation>
     </message>
 </context>
 <context>
@@ -3061,7 +3082,7 @@ Expected time to earn reward is %3</source>
     <message>
         <location filename="../trafficgraphwidget.cpp" line="+79"/>
         <source>KB/s</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3074,7 +3095,9 @@ Expected time to earn reward is %3</source>
     <message numerus="yes">
         <location line="-2"/>
         <source>Open for %n block(s)</source>
-        <translation><numerusform>为 %n 个数据块开启</numerusform></translation>
+        <translation>
+            <numerusform>为 %n 个数据块开启</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3104,7 +3127,9 @@ Expected time to earn reward is %3</source>
     <message numerus="yes">
         <location line="+7"/>
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>通过 %n 个节点广播</numerusform></translation>
+        <translation>
+            <numerusform>通过 %n 个节点广播</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+5"/>
@@ -3162,7 +3187,9 @@ Expected time to earn reward is %3</source>
     <message numerus="yes">
         <location line="-114"/>
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>将在 %n 个数据块后成熟</numerusform></translation>
+        <translation>
+            <numerusform>将在 %n 个数据块后成熟</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3297,7 +3324,9 @@ Expected time to earn reward is %3</source>
     <message numerus="yes">
         <location line="-15"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>为 %n 个更多的区块开启</numerusform></translation>
+        <translation>
+            <numerusform>为 %n 个更多的区块开启</numerusform>
+        </translation>
     </message>
     <message>
         <location line="-51"/>
@@ -3373,7 +3402,7 @@ Expected time to earn reward is %3</source>
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+393"/>
+        <location filename="../walletmodel.cpp" line="+402"/>
         <location line="+246"/>
         <source>Sending...</source>
         <translation>正在发送</translation>
