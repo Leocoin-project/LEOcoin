@@ -19,7 +19,7 @@ packages:
 - "bsdmainutils"
 reference_datetime: "2017-06-12 00:00:00"
 remotes:
-- "url": "https://github.com/Leocoin-project/LEOcoin"
+- "url": "/home/debian/out/LEOcoin"
   "dir": "LEOcoin"
 files:
 - "deps-linux32-gitian.tar.xz"
