@@ -725,46 +725,46 @@ void ThreadFlushWalletDB(const std::string& strFile)
 bool BackupWallet(const CWallet& wallet, const string& strDest)
 {
 
-    std::locale::global(boost::locale::generator().generate(""));
-    fs::path::imbue(std::locale());
+//    std::locale::global(boost::locale::generator().generate(""));
+//    fs::path::imbue(std::locale());
 
-    if (!wallet.fFileBacked)
-        return false;
-    for (;;)
-    {
-        boost::this_thread::interruption_point();
-        {
-            LOCK(bitdb.cs_db);
-            if (!bitdb.mapFileUseCount.count(wallet.strWalletFile) || bitdb.mapFileUseCount[wallet.strWalletFile] == 0)
-            {
-                // Flush log data to the dat file
-                bitdb.CloseDb(wallet.strWalletFile);
-                bitdb.CheckpointLSN(wallet.strWalletFile);
-                bitdb.mapFileUseCount.erase(wallet.strWalletFile);
+//    if (!wallet.fFileBacked)
+//        return false;
+//    for (;;)
+//    {
+//        boost::this_thread::interruption_point();
+//        {
+//            LOCK(bitdb.cs_db);
+//            if (!bitdb.mapFileUseCount.count(wallet.strWalletFile) || bitdb.mapFileUseCount[wallet.strWalletFile] == 0)
+//            {
+//                // Flush log data to the dat file
+//                bitdb.CloseDb(wallet.strWalletFile);
+//                bitdb.CheckpointLSN(wallet.strWalletFile);
+//                bitdb.mapFileUseCount.erase(wallet.strWalletFile);
 
-                // Copy wallet.dat
-                fs::path pathSrc = GetDataDir() / wallet.strWalletFile;
-                fs::path pathDest(strDest);
-                if (fs::is_directory(pathDest))
-                    pathDest /= wallet.strWalletFile;
+//                // Copy wallet.dat
+//                fs::path pathSrc = GetDataDir() / wallet.strWalletFile;
+//                fs::path pathDest(strDest);
+//                if (fs::is_directory(pathDest))
+//                    pathDest /= wallet.strWalletFile;
 
-                try {
-#if BOOST_VERSION >= 104000
-                    fs::copy_file(pathSrc, pathDest, fs::copy_option::overwrite_if_exists);
-#else
-                    fs::copy_file(pathSrc, pathDest);
-#endif
-                    LogPrintf("copied wallet.dat to %s\n", pathDest.string().c_str());
-                    return true;
-                } catch(const fs::filesystem_error &e)
-                {
-                    LogPrintf("error copying wallet.dat to %s - %s\n", pathDest.string().c_str(), e.what());
-                    return false;
-                };
-            };
-        }
-        MilliSleep(100);
-    };
+//                try {
+//#if BOOST_VERSION >= 104000
+//                    fs::copy_file(pathSrc, pathDest, fs::copy_option::overwrite_if_exists);
+//#else
+//                    fs::copy_file(pathSrc, pathDest);
+//#endif
+//                    LogPrintf("copied wallet.dat to %s\n", pathDest.string().c_str());
+//                    return true;
+//                } catch(const fs::filesystem_error &e)
+//                {
+//                    LogPrintf("error copying wallet.dat to %s - %s\n", pathDest.string().c_str(), e.what());
+//                    return false;
+//                };
+//            };
+//        }
+//        MilliSleep(100);
+//    };
     return false;
 }
 

@@ -167,8 +167,7 @@ script: |
     sed -i 's^<source>zlib.cpp <source>gzip.cpp \]^^' libs/iostreams/build/Jamfile.v2
     # http://statmt.org/~s0565741/software/boost_1_52_0/libs/context/doc/html/context/requirements.html
     # "For cross-compiling the lib you must specify certain additional properties at bjam command line: target-os, abi, binary-format, architecture and address-model."
-    ./bjam toolset=gcc binary-format=pe target-os=windows threadapi=win32 address-model=$BITS 
-threading=multi variant=release link=static runtime-link=static --user-config=user-config.jam --without-mpi --without-python --with-locale -sNO_BZIP2=1 -sNO_ZLIB=1 --layout=tagged --build-type=complete --prefix="$INSTALLPREFIX" $MAKEOPTS install
+    ./bjam toolset=gcc binary-format=pe target-os=windows threadapi=win32 address-model=$BITS threading=multi variant=release link=static runtime-link=static --user-config=user-config.jam --without-mpi --without-python --with-locale -sNO_BZIP2=1 -sNO_ZLIB=1 --layout=tagged --build-type=complete --prefix="$INSTALLPREFIX" $MAKEOPTS install
     # post-process all generated libraries to be deterministic
     # extract them to a temporary directory then re-build them deterministically
     for LIB in $(find $INSTALLPREFIX -name \*.a); do
