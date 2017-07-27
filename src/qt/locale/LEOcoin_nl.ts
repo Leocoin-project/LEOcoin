@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="nl" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="nl">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -17,14 +19,7 @@
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
 Copyright © 2014-%1 The LEOcoin developers</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The BlackCoin developers
-Copyright © 2014-[CLIENT_LAST_COPYRIGHT] The LEOcoin developers</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
@@ -34,7 +29,7 @@ This is experimental software.
 Distributed under the MIT/X11 software license, see the accompanying file COPYING or &lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;) and cryptographic software written by Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) and UPnP software written by Thomas Bernard.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -111,7 +106,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+16"/>
         <source>Enable messaging</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+39"/>
@@ -629,439 +624,6 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
 </context>
 <context>
-    <name>MessageModel</name>
-    <message>
-        <location filename="../messagemodel.cpp" line="+376"/>
-        <source>Type</source>
-        <translation>Type</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Sent Date Time</source>
-        <translation>Verzonden tijd</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Received Date Time</source>
-        <translation>Ontvangen Tijd</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Label</source>
-        <translation>Label</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>To Address</source>
-        <translation>Van adres</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>From Address</source>
-        <translation>Naar adres</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Message</source>
-        <translation>Bericht</translation>
-    </message>
-    <message>
-        <location line="+41"/>
-        <source>Send Secure Message</source>
-        <translation>Verstuur Beveiligd Bericht</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Send failed: %1.</source>
-        <translation>Versturen mislukt: %1.</translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <location line="+1"/>
-        <source>(no label)</source>
-        <translation>(geen label)</translation>
-    </message>
-</context>
-<context>
-    <name>PaymentServer</name>
-    <message>
-        <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start LEOcoin: click-to-pay handler</source>
-        <translation>Kan LEOcoin niet starten: click-om-te-betalen handler</translation>
-    </message>
-</context>
-<context>
-    <name>PeerTableModel</name>
-    <message>
-        <location filename="../peertablemodel.cpp" line="+118"/>
-        <source>Address/Hostname</source>
-        <translation>Adres/Hostnaam</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>User Agent</source>
-        <translation>Gebruiker Agent</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Ping Time</source>
-        <translation>Ping tijd</translation>
-    </message>
-</context>
-<context>
-    <name>QObject</name>
-    <message>
-        <location filename="../guiutil.cpp" line="-470"/>
-        <source>%1 d</source>
-        <translation>%1 d</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1 h</source>
-        <translation>%1 h</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1 m</source>
-        <translation>%1 m</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <location line="+55"/>
-        <source>%1 s</source>
-        <translation>%1 s</translation>
-    </message>
-    <message>
-        <location line="-10"/>
-        <source>None</source>
-        <translation>Geen</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>N/A</source>
-        <translation>N.v.t.</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>%1 ms</source>
-        <translation>%1 ms</translation>
-    </message>
-</context>
-<context>
-    <name>RPCConsole</name>
-    <message>
-        <location filename="../forms/rpcconsole.ui" line="+46"/>
-        <source>Client name</source>
-        <translation>Clientnaam</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <location line="+23"/>
-        <location line="+26"/>
-        <location line="+26"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+36"/>
-        <location line="+23"/>
-        <location line="+36"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+491"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <source>N/A</source>
-        <translation>N.v.t.</translation>
-    </message>
-    <message>
-        <location line="-1062"/>
-        <source>Client version</source>
-        <translation>Clientversie</translation>
-    </message>
-    <message>
-        <location line="-45"/>
-        <source>&amp;Information</source>
-        <translation>&amp;Informatie</translation>
-    </message>
-    <message>
-        <location line="-10"/>
-        <source>LEOcoin - Debug window</source>
-        <translation>LEOcoin - Debug scherm</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>LEOcoin Core</source>
-        <translation>LEOcoin Core</translation>
-    </message>
-    <message>
-        <location line="+53"/>
-        <source>Using OpenSSL version</source>
-        <translation>Gebruikt OpenSSL versie</translation>
-    </message>
-    <message>
-        <location line="+26"/>
-        <source>Using BerkeleyDB version</source>
-        <translation>Gebruikt BerkeleyDB versie</translation>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Startup time</source>
-        <translation>Opstarttijd</translation>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>Network</source>
-        <translation>Netwerk</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Name</source>
-        <translation>Naam</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Number of connections</source>
-        <translation>Aantal connecties</translation>
-    </message>
-    <message>
-        <location line="+157"/>
-        <source>Show the LEOcoin help message to get a list with possible LEOcoin command-line options.</source>
-        <translation>Toon het LEOcoin hulp bericht om een lijst met mogelijk LEOcoin opdracht regel opties te verkrijgen.</translation>
-    </message>
-    <message>
-        <location line="+99"/>
-        <source>&amp;Network Traffic</source>
-        <translation>&amp;Netwerkverkeer</translation>
-    </message>
-    <message>
-        <location line="+52"/>
-        <source>&amp;Clear</source>
-        <translation>&amp;Opschonen</translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Totals</source>
-        <translation>Totalen</translation>
-    </message>
-    <message>
-        <location line="+64"/>
-        <location filename="../rpcconsole.cpp" line="+396"/>
-        <source>In:</source>
-        <translation>In:</translation>
-    </message>
-    <message>
-        <location line="+80"/>
-        <location filename="../rpcconsole.cpp" line="+1"/>
-        <source>Out:</source>
-        <translation>Uit:</translation>
-    </message>
-    <message>
-        <location line="+41"/>
-        <source>&amp;Peers</source>
-        <translation>&amp;Peers</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <location filename="../rpcconsole.cpp" line="-167"/>
-        <location line="+328"/>
-        <source>Select a peer to view detailed information.</source>
-        <translation>Selecteer een peer om gedetailleerde info te zien.</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>Peer ID</source>
-        <translation>Peer ID</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Direction</source>
-        <translation>Directie</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Version</source>
-        <translation>Versie</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>User Agent</source>
-        <translation>Gebruiker Agent</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Services</source>
-        <translation>Diensten</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Starting Height</source>
-        <translation>Start Hoogte</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Sync Height</source>
-        <translation>Sync Hoogte</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Ban Score</source>
-        <translation>Ban Score</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Connection Time</source>
-        <translation>Connectie Tijd</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Last Send</source>
-        <translation>Laatst Verzonden</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Last Receive</source>
-        <translation>Laatst Ontvangen</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Bytes Sent</source>
-        <translation>Bytes verstuurd</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Bytes Received</source>
-        <translation>Bytes ontvangen</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Ping Time</source>
-        <translation>Ping tijd</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Time Offset</source>
-        <translation>Tijd compenseren</translation>
-    </message>
-    <message>
-        <location line="-866"/>
-        <source>Block chain</source>
-        <translation>Blokketen</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Current number of blocks</source>
-        <translation>Huidig aantal blokken</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Estimated total blocks</source>
-        <translation>Geschat totaal aantal blokken</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Last block time</source>
-        <translation>Tijd laatste blok</translation>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Open the LEOcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open de LEOcoin debog log bestand van de huidige data directory. Dit kan enkele minuten duren voor grote log bestanden.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Open</source>
-        <translation>&amp;Open</translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Command-line options</source>
-        <translation>Commandoregel-opties</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>&amp;Show</source>
-        <translation>&amp;Show</translation>
-    </message>
-    <message>
-        <location line="+24"/>
-        <source>&amp;Console</source>
-        <translation>&amp;Console</translation>
-    </message>
-    <message>
-        <location line="-266"/>
-        <source>Build date</source>
-        <translation>Bouwdatum</translation>
-    </message>
-    <message>
-        <location line="+206"/>
-        <source>Debug log file</source>
-        <translation>Debug-logbestand</translation>
-    </message>
-    <message>
-        <location line="+109"/>
-        <source>Clear console</source>
-        <translation>Maak console leeg</translation>
-    </message>
-    <message>
-        <location filename="../rpcconsole.cpp" line="-197"/>
-        <source>Welcome to the LEOcoin Core RPC console.</source>
-        <translation>Welkom bij het LEOcoin Kern RPC paneel.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Gebruik de pijltjestoetsen om door de geschiedenis te navigeren, en &lt;b&gt;Ctrl-L&lt;/b&gt; om het scherm leeg te maken.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Typ &lt;b&gt;help&lt;/b&gt; voor een overzicht van de beschikbare commando&apos;s.</translation>
-    </message>
-    <message>
-        <location line="+233"/>
-        <source>via %1</source>
-        <translation>via %1</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <location line="+1"/>
-        <source>never</source>
-        <translation>nooit</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>Inbound</source>
-        <translation>Inkomend</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Outbound</source>
-        <translation>Uitgaand</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Unknown</source>
-        <translation>Onbekend</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <location line="+1"/>
-        <source>Fetching...</source>
-        <translation>Ophalen...</translation>
-    </message>
-</context>
-<context>
     <name>LEOcoinBridge</name>
     <message>
         <location filename="../LEOcoinbridge.cpp" line="+410"/>
@@ -1085,10 +647,6 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+5"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; LEO, ring size %2 to LEO %3 (%4)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; LEO, kring grootte %2 aan LEO %3 (%4)</translation>
-    </message>
-    <message>
         <location line="+5"/>
         <source>&lt;b&gt;%1&lt;/b&gt; LEO, ring size %2 to LEO %3 (%4)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; LEO, kring grootte %2 aan LEO %3 (%4)</translation>
@@ -1637,10 +1195,6 @@ Kring grootte van één is niet geheim en tast het netwerk aan.</translation>
         <translation>Betaal aan</translation>
     </message>
     <message>
-        <source>(no label)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <location line="+135"/>
         <source>Tor connection offline</source>
         <translation>Tor connectie offline</translation>
@@ -1654,10 +1208,6 @@ Kring grootte van één is niet geheim en tast het netwerk aan.</translation>
         <location line="+1"/>
         <source>Wallet is encrypted and currently locked</source>
         <translation>De portemonnee is beveiligd en momenteel gesloten.</translation>
-    </message>
-    <message>
-        <source>Not staking because wallet is locked</source>
-        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
@@ -1717,7 +1267,7 @@ Kring grootte van één is niet geheim en tast het netwerk aan.</translation>
     <message>
         <location line="+1"/>
         <source>Enter a LEOcoin address to verify the message with (e.g. 8MfTCSnMvix9mVVNb2MGiEw92GpLrvzhVp)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1757,7 +1307,7 @@ Kring grootte van één is niet geheim en tast het netwerk aan.</translation>
     <message>
         <location line="+1"/>
         <source>Optional address to receive transaction change</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1777,12 +1327,12 @@ Kring grootte van één is niet geheim en tast het netwerk aan.</translation>
     <message>
         <location line="+1"/>
         <source>Current spendable send payment balance</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Current spendable balance to account</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1902,7 +1452,7 @@ Kring grootte van één is niet geheim en tast het netwerk aan.</translation>
     <message>
         <location line="+4"/>
         <source>Not staking because wallet is offline</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Niet staking, omdat portemonnee offline is</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1947,7 +1497,7 @@ Kring grootte van één is niet geheim en tast het netwerk aan.</translation>
     <message>
         <location line="-122"/>
         <source>Narration</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Narratief</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2157,22 +1707,22 @@ Kring grootte van één is niet geheim en tast het netwerk aan.</translation>
     <message>
         <location line="+1"/>
         <source>Least Depth</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>BLOCK EXPLORER</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Refresh</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Hash</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,7 +1737,7 @@ Kring grootte van één is niet geheim en tast het netwerk aan.</translation>
     <message>
         <location line="+1"/>
         <source>Value Out</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2212,7 +1762,7 @@ Kring grootte van één is niet geheim en tast het netwerk aan.</translation>
     <message>
         <location line="+1"/>
         <source>Display</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2252,7 +1802,7 @@ Kring grootte van één is niet geheim en tast het netwerk aan.</translation>
     <message>
         <location line="+1"/>
         <source>Enable Staking</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2262,12 +1812,12 @@ Kring grootte van één is niet geheim en tast het netwerk aan.</translation>
     <message>
         <location line="+1"/>
         <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Minimum Stake Interval</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2292,22 +1842,22 @@ Kring grootte van één is niet geheim en tast het netwerk aan.</translation>
     <message>
         <location line="+1"/>
         <source>Thin Mode (Requires Restart)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Thin Full Index</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Thin Index Window</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Map port using UPnP</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2337,7 +1887,7 @@ Kring grootte van één is niet geheim en tast het netwerk aan.</translation>
     <message>
         <location line="+1"/>
         <source>Minimize to the tray instead of the taskbar</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2457,7 +2007,7 @@ Kring grootte van één is niet geheim en tast het netwerk aan.</translation>
     <message>
         <location line="+1"/>
         <source>Chinese (Traditional)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2516,7 +2066,7 @@ Vergeet niet om je Portemonnee Herstel Zin en Paswoord (al dan niet ingesteld) o
     <message>
         <location line="+1"/>
         <source>Is this a Multi-Account HD Key (BIP44)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2532,12 +2082,12 @@ Vergeet niet om je Portemonnee Herstel Zin en Paswoord (al dan niet ingesteld) o
         <location line="+1"/>
         <source>You can now use your Account to send and receive funds :)
                             Remember to keep your Wallet Recovery Phrase and Password safe in case you ever need to recover your wallet again!</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Accounts</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2578,6 +2128,26 @@ Vergeet niet om je Portemonnee Herstel Zin en Paswoord (al dan niet ingesteld) o
         <location line="+1"/>
         <source>Master</source>
         <translation>Meester</translation>
+    </message>
+    <message>
+        <location line="+61"/>
+        <source>LEOcoin Notification</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>A new version of the LEOcoin wallet is available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Please go to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>and upgrade to the latest version.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2738,7 +2308,10 @@ Vergeet niet om je Portemonnee Herstel Zin en Paswoord (al dan niet ingesteld) o
     <message numerus="yes">
         <location line="+63"/>
         <source>%n active connection(s) to LEOcoin network</source>
-        <translation><numerusform>%n actieve verbindingen met LEOcoin netwerk</numerusform><numerusform>%n actieve verbindingen met LEOcoin netwerk</numerusform></translation>
+        <translation>
+            <numerusform>%n actieve verbindingen met LEOcoin netwerk</numerusform>
+            <numerusform>%n actieve verbindingen met LEOcoin netwerk</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+18"/>
@@ -2784,7 +2357,10 @@ Vergeet niet om je Portemonnee Herstel Zin en Paswoord (al dan niet ingesteld) o
     <message numerus="yes">
         <location line="+5"/>
         <source>~%n block(s) remaining</source>
-        <translation><numerusform>~%n blok overgebleven</numerusform><numerusform>~%n blok(ken) overgebleven</numerusform></translation>
+        <translation>
+            <numerusform>~%n blok overgebleven</numerusform>
+            <numerusform>~%n blok(ken) overgebleven</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+13"/>
@@ -2811,22 +2387,34 @@ Vergeet niet om je Portemonnee Herstel Zin en Paswoord (al dan niet ingesteld) o
     <message numerus="yes">
         <location line="+23"/>
         <source>%n second(s) ago</source>
-        <translation><numerusform>%n seconden geleden </numerusform><numerusform>%n seconden geleden</numerusform></translation>
+        <translation>
+            <numerusform>%n seconden geleden </numerusform>
+            <numerusform>%n seconden geleden</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n minute(s) ago</source>
-        <translation><numerusform>%n minuut geleden</numerusform><numerusform>%n minuten geleden</numerusform></translation>
+        <translation>
+            <numerusform>%n minuut geleden</numerusform>
+            <numerusform>%n minuten geleden</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n hour(s) ago</source>
-        <translation><numerusform>%n uur geleden</numerusform><numerusform>%n uren geleden</numerusform></translation>
+        <translation>
+            <numerusform>%n uur geleden</numerusform>
+            <numerusform>%n uren geleden</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location line="+3"/>
         <source>%n day(s) ago</source>
-        <translation><numerusform>%n dag geleden</numerusform><numerusform>%n dagen geleden</numerusform></translation>
+        <translation>
+            <numerusform>%n dag geleden</numerusform>
+            <numerusform>%n dagen geleden</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2911,21 +2499,17 @@ Bericht: %4
     <message>
         <location line="+42"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for staking and messaging only.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for messaging only.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for staking only.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for staking only</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+12"/>
@@ -2933,7 +2517,7 @@ Bericht: %4
         <translation>Portemonnee is &lt;b&gt;gecodeerd&lt;/b&gt; en momenteel &lt;b&gt;ontgrendeld&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+25"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Portemonnee is &lt;b&gt;gecodeerd&lt;/b&gt; en momenteel &lt;b&gt;gesloten&lt;/b&gt;</translation>
     </message>
@@ -2970,22 +2554,34 @@ Bericht: %4
     <message numerus="yes">
         <location line="+69"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n seconden </numerusform><numerusform>%n seconden </numerusform></translation>
+        <translation>
+            <numerusform>%n seconden </numerusform>
+            <numerusform>%n seconden </numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location line="+1"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n minuut</numerusform><numerusform>%n minuten </numerusform></translation>
+        <translation>
+            <numerusform>%n minuut</numerusform>
+            <numerusform>%n minuten </numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location line="+1"/>
         <source>%n hour(s)</source>
-        <translation><numerusform>%n uur</numerusform><numerusform>%n uren </numerusform></translation>
+        <translation>
+            <numerusform>%n uur</numerusform>
+            <numerusform>%n uren </numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location line="+1"/>
         <source>%n day(s)</source>
-        <translation><numerusform>%n dag</numerusform><numerusform>%n dagen </numerusform></translation>
+        <translation>
+            <numerusform>%n dag</numerusform>
+            <numerusform>%n dagen </numerusform>
+        </translation>
     </message>
     <message>
         <location line="+9"/>
@@ -3075,6 +2671,437 @@ Verwachten tijd tot beloning is %3</translation>
     </message>
 </context>
 <context>
+    <name>MessageModel</name>
+    <message>
+        <location filename="../messagemodel.cpp" line="+376"/>
+        <source>Type</source>
+        <translation>Type</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Sent Date Time</source>
+        <translation>Verzonden tijd</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Received Date Time</source>
+        <translation>Ontvangen Tijd</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Label</source>
+        <translation>Label</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>To Address</source>
+        <translation>Van adres</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>From Address</source>
+        <translation>Naar adres</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Message</source>
+        <translation>Bericht</translation>
+    </message>
+    <message>
+        <location line="+41"/>
+        <source>Send Secure Message</source>
+        <translation>Verstuur Beveiligd Bericht</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Send failed: %1.</source>
+        <translation>Versturen mislukt: %1.</translation>
+    </message>
+    <message>
+        <location line="+22"/>
+        <location line="+1"/>
+        <source>(no label)</source>
+        <translation>(geen label)</translation>
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    <message>
+        <location filename="../paymentserver.cpp" line="+107"/>
+        <source>Cannot start LEOcoin: click-to-pay handler</source>
+        <translation>Kan LEOcoin niet starten: click-om-te-betalen handler</translation>
+    </message>
+</context>
+<context>
+    <name>PeerTableModel</name>
+    <message>
+        <location filename="../peertablemodel.cpp" line="+118"/>
+        <source>Address/Hostname</source>
+        <translation>Adres/Hostnaam</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>User Agent</source>
+        <translation>Gebruiker Agent</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Ping Time</source>
+        <translation>Ping tijd</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <location filename="../guiutil.cpp" line="-470"/>
+        <source>%1 d</source>
+        <translation>%1 d</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1 h</source>
+        <translation>%1 h</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1 m</source>
+        <translation>%1 m</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <location line="+55"/>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
+    <message>
+        <location line="-10"/>
+        <source>None</source>
+        <translation>Geen</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>N/A</source>
+        <translation>N.v.t.</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>%1 ms</source>
+        <translation>%1 ms</translation>
+    </message>
+</context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="+46"/>
+        <source>Client name</source>
+        <translation>Clientnaam</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <location line="+23"/>
+        <location line="+26"/>
+        <location line="+26"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+36"/>
+        <location line="+23"/>
+        <location line="+36"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+491"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <source>N/A</source>
+        <translation>N.v.t.</translation>
+    </message>
+    <message>
+        <location line="-1062"/>
+        <source>Client version</source>
+        <translation>Clientversie</translation>
+    </message>
+    <message>
+        <location line="-45"/>
+        <source>&amp;Information</source>
+        <translation>&amp;Informatie</translation>
+    </message>
+    <message>
+        <location line="-10"/>
+        <source>LEOcoin - Debug window</source>
+        <translation>LEOcoin - Debug scherm</translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>LEOcoin Core</source>
+        <translation>LEOcoin Core</translation>
+    </message>
+    <message>
+        <location line="+53"/>
+        <source>Using OpenSSL version</source>
+        <translation>Gebruikt OpenSSL versie</translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>Using BerkeleyDB version</source>
+        <translation>Gebruikt BerkeleyDB versie</translation>
+    </message>
+    <message>
+        <location line="+49"/>
+        <source>Startup time</source>
+        <translation>Opstarttijd</translation>
+    </message>
+    <message>
+        <location line="+29"/>
+        <source>Network</source>
+        <translation>Netwerk</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Name</source>
+        <translation>Naam</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Number of connections</source>
+        <translation>Aantal connecties</translation>
+    </message>
+    <message>
+        <location line="+157"/>
+        <source>Show the LEOcoin help message to get a list with possible LEOcoin command-line options.</source>
+        <translation>Toon het LEOcoin hulp bericht om een lijst met mogelijk LEOcoin opdracht regel opties te verkrijgen.</translation>
+    </message>
+    <message>
+        <location line="+99"/>
+        <source>&amp;Network Traffic</source>
+        <translation>&amp;Netwerkverkeer</translation>
+    </message>
+    <message>
+        <location line="+52"/>
+        <source>&amp;Clear</source>
+        <translation>&amp;Opschonen</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Totals</source>
+        <translation>Totalen</translation>
+    </message>
+    <message>
+        <location line="+64"/>
+        <location filename="../rpcconsole.cpp" line="+396"/>
+        <source>In:</source>
+        <translation>In:</translation>
+    </message>
+    <message>
+        <location line="+80"/>
+        <location filename="../rpcconsole.cpp" line="+1"/>
+        <source>Out:</source>
+        <translation>Uit:</translation>
+    </message>
+    <message>
+        <location line="+41"/>
+        <source>&amp;Peers</source>
+        <translation>&amp;Peers</translation>
+    </message>
+    <message>
+        <location line="+39"/>
+        <location filename="../rpcconsole.cpp" line="-167"/>
+        <location line="+328"/>
+        <source>Select a peer to view detailed information.</source>
+        <translation>Selecteer een peer om gedetailleerde info te zien.</translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>Peer ID</source>
+        <translation>Peer ID</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Direction</source>
+        <translation>Directie</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Version</source>
+        <translation>Versie</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>User Agent</source>
+        <translation>Gebruiker Agent</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Services</source>
+        <translation>Diensten</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Starting Height</source>
+        <translation>Start Hoogte</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Sync Height</source>
+        <translation>Sync Hoogte</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Ban Score</source>
+        <translation>Ban Score</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Connection Time</source>
+        <translation>Connectie Tijd</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Last Send</source>
+        <translation>Laatst Verzonden</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Last Receive</source>
+        <translation>Laatst Ontvangen</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Bytes Sent</source>
+        <translation>Bytes verstuurd</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Bytes Received</source>
+        <translation>Bytes ontvangen</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Ping Time</source>
+        <translation>Ping tijd</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Time Offset</source>
+        <translation>Tijd compenseren</translation>
+    </message>
+    <message>
+        <location line="-866"/>
+        <source>Block chain</source>
+        <translation>Blokketen</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Current number of blocks</source>
+        <translation>Huidig aantal blokken</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Estimated total blocks</source>
+        <translation>Geschat totaal aantal blokken</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Last block time</source>
+        <translation>Tijd laatste blok</translation>
+    </message>
+    <message>
+        <location line="+49"/>
+        <source>Open the LEOcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open de LEOcoin debog log bestand van de huidige data directory. Dit kan enkele minuten duren voor grote log bestanden.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;Open</source>
+        <translation>&amp;Open</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Command-line options</source>
+        <translation>Commandoregel-opties</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>&amp;Show</source>
+        <translation>&amp;Show</translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>&amp;Console</source>
+        <translation>&amp;Console</translation>
+    </message>
+    <message>
+        <location line="-266"/>
+        <source>Build date</source>
+        <translation>Bouwdatum</translation>
+    </message>
+    <message>
+        <location line="+206"/>
+        <source>Debug log file</source>
+        <translation>Debug-logbestand</translation>
+    </message>
+    <message>
+        <location line="+109"/>
+        <source>Clear console</source>
+        <translation>Maak console leeg</translation>
+    </message>
+    <message>
+        <location filename="../rpcconsole.cpp" line="-197"/>
+        <source>Welcome to the LEOcoin Core RPC console.</source>
+        <translation>Welkom bij het LEOcoin Kern RPC paneel.</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>Gebruik de pijltjestoetsen om door de geschiedenis te navigeren, en &lt;b&gt;Ctrl-L&lt;/b&gt; om het scherm leeg te maken.</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Typ &lt;b&gt;help&lt;/b&gt; voor een overzicht van de beschikbare commando&apos;s.</translation>
+    </message>
+    <message>
+        <location line="+233"/>
+        <source>via %1</source>
+        <translation>via %1</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <location line="+1"/>
+        <source>never</source>
+        <translation>nooit</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Inbound</source>
+        <translation>Inkomend</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Outbound</source>
+        <translation>Uitgaand</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Unknown</source>
+        <translation>Onbekend</translation>
+    </message>
+    <message>
+        <source>Fetching...</source>
+        <translation type="vanished">Ophalen...</translation>
+    </message>
+</context>
+<context>
     <name>TrafficGraphWidget</name>
     <message>
         <location filename="../trafficgraphwidget.cpp" line="+79"/>
@@ -3092,7 +3119,10 @@ Verwachten tijd tot beloning is %3</translation>
     <message numerus="yes">
         <location line="-2"/>
         <source>Open for %n block(s)</source>
-        <translation><numerusform>Open voor nog %n blok</numerusform><numerusform>Open voor nog %n blokken</numerusform></translation>
+        <translation>
+            <numerusform>Open voor nog %n blok</numerusform>
+            <numerusform>Open voor nog %n blokken</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3122,7 +3152,10 @@ Verwachten tijd tot beloning is %3</translation>
     <message numerus="yes">
         <location line="+7"/>
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, uitgezonden naar %n node</numerusform><numerusform>, uitgezonden naar %n nodes</numerusform></translation>
+        <translation>
+            <numerusform>, uitgezonden naar %n node</numerusform>
+            <numerusform>, uitgezonden naar %n nodes</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+5"/>
@@ -3180,7 +3213,10 @@ Verwachten tijd tot beloning is %3</translation>
     <message numerus="yes">
         <location line="-114"/>
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>komt tot wasdom na %n nieuw blok</numerusform><numerusform>komt tot wasdom na %n nieuwe blokken</numerusform></translation>
+        <translation>
+            <numerusform>komt tot wasdom na %n nieuw blok</numerusform>
+            <numerusform>komt tot wasdom na %n nieuwe blokken</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3315,7 +3351,10 @@ Verwachten tijd tot beloning is %3</translation>
     <message numerus="yes">
         <location line="-15"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Open voor nog %n blok</numerusform><numerusform>Open voor nog %n blokken</numerusform></translation>
+        <translation>
+            <numerusform>Open voor nog %n blok</numerusform>
+            <numerusform>Open voor nog %n blokken</numerusform>
+        </translation>
     </message>
     <message>
         <location line="-51"/>
@@ -3391,7 +3430,7 @@ Verwachten tijd tot beloning is %3</translation>
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+393"/>
+        <location filename="../walletmodel.cpp" line="+402"/>
         <location line="+246"/>
         <source>Sending...</source>
         <translation>Versturen...</translation>

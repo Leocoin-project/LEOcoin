@@ -639,439 +639,6 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
 </context>
 <context>
-    <name>MessageModel</name>
-    <message>
-        <location filename="../messagemodel.cpp" line="+376"/>
-        <source>Type</source>
-        <translation>Type</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Sent Date Time</source>
-        <translation>Sent Date Time</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Received Date Time</source>
-        <translation>Received Date Time</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Label</source>
-        <translation>Label</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>To Address</source>
-        <translation>To Address</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>From Address</source>
-        <translation>From Address</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Message</source>
-        <translation>Message</translation>
-    </message>
-    <message>
-        <location line="+41"/>
-        <source>Send Secure Message</source>
-        <translation>Send Secure Message</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Send failed: %1.</source>
-        <translation>Send failed: %1.</translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <location line="+1"/>
-        <source>(no label)</source>
-        <translation>(no label)</translation>
-    </message>
-</context>
-<context>
-    <name>PaymentServer</name>
-    <message>
-        <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start LEOcoin: click-to-pay handler</source>
-        <translation>Cannot start LEOcoin: click-to-pay handler</translation>
-    </message>
-</context>
-<context>
-    <name>PeerTableModel</name>
-    <message>
-        <location filename="../peertablemodel.cpp" line="+118"/>
-        <source>Address/Hostname</source>
-        <translation>Address/Hostname</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>User Agent</source>
-        <translation>User Agent</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Ping Time</source>
-        <translation>Ping Time</translation>
-    </message>
-</context>
-<context>
-    <name>QObject</name>
-    <message>
-        <location filename="../guiutil.cpp" line="-470"/>
-        <source>%1 d</source>
-        <translation>%1 d</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1 h</source>
-        <translation>%1 h</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1 m</source>
-        <translation>%1 m</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <location line="+55"/>
-        <source>%1 s</source>
-        <translation>%1 s</translation>
-    </message>
-    <message>
-        <location line="-10"/>
-        <source>None</source>
-        <translation>None</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>N/A</source>
-        <translation>N/A</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>%1 ms</source>
-        <translation>%1 ms</translation>
-    </message>
-</context>
-<context>
-    <name>RPCConsole</name>
-    <message>
-        <location filename="../forms/rpcconsole.ui" line="+46"/>
-        <source>Client name</source>
-        <translation>Client name</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <location line="+23"/>
-        <location line="+26"/>
-        <location line="+26"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+36"/>
-        <location line="+23"/>
-        <location line="+36"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+491"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <source>N/A</source>
-        <translation>N/A</translation>
-    </message>
-    <message>
-        <location line="-1062"/>
-        <source>Client version</source>
-        <translation>Client version</translation>
-    </message>
-    <message>
-        <location line="-45"/>
-        <source>&amp;Information</source>
-        <translation>&amp;Information</translation>
-    </message>
-    <message>
-        <location line="-10"/>
-        <source>LEOcoin - Debug window</source>
-        <translation>LEOcoin - Debug window</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>LEOcoin Core</source>
-        <translation>LEOcoin Core</translation>
-    </message>
-    <message>
-        <location line="+53"/>
-        <source>Using OpenSSL version</source>
-        <translation>Using OpenSSL version</translation>
-    </message>
-    <message>
-        <location line="+26"/>
-        <source>Using BerkeleyDB version</source>
-        <translation>Using BerkeleyDB version</translation>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Startup time</source>
-        <translation>Startup time</translation>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>Network</source>
-        <translation>Network</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Name</source>
-        <translation>Name</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Number of connections</source>
-        <translation>Number of connections</translation>
-    </message>
-    <message>
-        <location line="+157"/>
-        <source>Show the LEOcoin help message to get a list with possible LEOcoin command-line options.</source>
-        <translation>Show the LEOcoin help message to get a list with possible LEOcoin command-line options.</translation>
-    </message>
-    <message>
-        <location line="+99"/>
-        <source>&amp;Network Traffic</source>
-        <translation>&amp;Network Traffic</translation>
-    </message>
-    <message>
-        <location line="+52"/>
-        <source>&amp;Clear</source>
-        <translation>&amp;Clear</translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Totals</source>
-        <translation>Totals</translation>
-    </message>
-    <message>
-        <location line="+64"/>
-        <location filename="../rpcconsole.cpp" line="+396"/>
-        <source>In:</source>
-        <translation>In:</translation>
-    </message>
-    <message>
-        <location line="+80"/>
-        <location filename="../rpcconsole.cpp" line="+1"/>
-        <source>Out:</source>
-        <translation>Out:</translation>
-    </message>
-    <message>
-        <location line="+41"/>
-        <source>&amp;Peers</source>
-        <translation>&amp;Peers</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <location filename="../rpcconsole.cpp" line="-167"/>
-        <location line="+328"/>
-        <source>Select a peer to view detailed information.</source>
-        <translation>Select a peer to view detailed information.</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>Peer ID</source>
-        <translation>Peer ID</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Direction</source>
-        <translation>Direction</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Version</source>
-        <translation>Version</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>User Agent</source>
-        <translation>User Agent</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Services</source>
-        <translation>Services</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Starting Height</source>
-        <translation>Starting Height</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Sync Height</source>
-        <translation>Sync Height</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Ban Score</source>
-        <translation>Ban Score</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Connection Time</source>
-        <translation>Connection Time</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Last Send</source>
-        <translation>Last Send</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Last Receive</source>
-        <translation>Last Receive</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Bytes Sent</source>
-        <translation>Bytes Sent</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Bytes Received</source>
-        <translation>Bytes Received</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Ping Time</source>
-        <translation>Ping Time</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Time Offset</source>
-        <translation>Time Offset</translation>
-    </message>
-    <message>
-        <location line="-866"/>
-        <source>Block chain</source>
-        <translation>Block chain</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Current number of blocks</source>
-        <translation>Current number of blocks</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Estimated total blocks</source>
-        <translation>Estimated total blocks</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Last block time</source>
-        <translation>Last block time</translation>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Open the LEOcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the LEOcoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Open</source>
-        <translation>&amp;Open</translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Command-line options</source>
-        <translation>Command-line options</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>&amp;Show</source>
-        <translation>&amp;Show</translation>
-    </message>
-    <message>
-        <location line="+24"/>
-        <source>&amp;Console</source>
-        <translation>&amp;Console</translation>
-    </message>
-    <message>
-        <location line="-266"/>
-        <source>Build date</source>
-        <translation>Build date</translation>
-    </message>
-    <message>
-        <location line="+206"/>
-        <source>Debug log file</source>
-        <translation>Debug log file</translation>
-    </message>
-    <message>
-        <location line="+109"/>
-        <source>Clear console</source>
-        <translation>Clear console</translation>
-    </message>
-    <message>
-        <location filename="../rpcconsole.cpp" line="-197"/>
-        <source>Welcome to the LEOcoin Core RPC console.</source>
-        <translation>Welcome to the LEOcoin Core RPC console.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</translation>
-    </message>
-    <message>
-        <location line="+233"/>
-        <source>via %1</source>
-        <translation>via %1</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <location line="+1"/>
-        <source>never</source>
-        <translation>never</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>Inbound</source>
-        <translation>Inbound</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Outbound</source>
-        <translation>Outbound</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Unknown</source>
-        <translation>Unknown</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <location line="+1"/>
-        <source>Fetching...</source>
-        <translation>Fetching...</translation>
-    </message>
-</context>
-<context>
     <name>LEOcoinBridge</name>
     <message>
         <location filename="../LEOcoinbridge.cpp" line="+410"/>
@@ -1095,10 +662,6 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+5"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; LEO, ring size %2 to LEO %3 (%4)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; LEO, ring size %2 to LEO %3 (%4)</translation>
-    </message>
-    <message>
         <location line="+5"/>
         <source>&lt;b&gt;%1&lt;/b&gt; LEO, ring size %2 to LEO %3 (%4)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; LEO, ring size %2 to LEO %3 (%4)</translation>
@@ -1414,7 +977,7 @@ Ring size of one is not anonymous, and harms the network.</translation>
     <message>
         <location line="+1"/>
         <source>About LEOcoin</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">About LEOcoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2587,6 +2150,25 @@ Ring size of one is not anonymous, and harms the network.</translation>
         <source>Master</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+	<location line="+1"/>
+	<source>LEOcoin Notification</source>
+	<translation>LEOcoin Notification</translation>
+    <message>
+        <location line="+61"/>
+        <source>A new version of the LEOcoin wallet is available.</source>
+        <translation type="unfinished">A new version of the LEOcoin wallet is available.</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Please go to</source>
+        <translation type="unfinished">Please go to</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>and upgrade to the latest version.</source>
+        <translation type="unfinished">and upgrade to the latest version.</translation>
+    </message>
 </context>
 <context>
     <name>LEOcoinGUI</name>
@@ -2958,7 +2540,7 @@ Message: %4
         <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+25"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</translation>
     </message>
@@ -3109,6 +2691,449 @@ Expected time to earn reward is %3</translation>
         <location line="+2"/>
         <source>Other</source>
         <translation>Other</translation>
+    </message>
+    <message>
+        <source>A new version of the LEOcoin wallet is available.</source>
+        <translation type="vanished">A new version of the LEOcoin wallet is available.</translation>
+    </message>
+    <message>
+        <source>Please go to</source>
+        <translation type="vanished">Please go to</translation>
+    </message>
+    <message>
+        <source>and upgrade to the latest version.</source>
+        <translation type="vanished">and upgrade to the latest version.</translation>
+    </message>
+</context>
+<context>
+    <name>MessageModel</name>
+    <message>
+        <location filename="../messagemodel.cpp" line="+376"/>
+        <source>Type</source>
+        <translation>Type</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Sent Date Time</source>
+        <translation>Sent Date Time</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Received Date Time</source>
+        <translation>Received Date Time</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Label</source>
+        <translation>Label</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>To Address</source>
+        <translation>To Address</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>From Address</source>
+        <translation>From Address</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Message</source>
+        <translation>Message</translation>
+    </message>
+    <message>
+        <location line="+41"/>
+        <source>Send Secure Message</source>
+        <translation>Send Secure Message</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Send failed: %1.</source>
+        <translation>Send failed: %1.</translation>
+    </message>
+    <message>
+        <location line="+22"/>
+        <location line="+1"/>
+        <source>(no label)</source>
+        <translation>(no label)</translation>
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    <message>
+        <location filename="../paymentserver.cpp" line="+107"/>
+        <source>Cannot start LEOcoin: click-to-pay handler</source>
+        <translation>Cannot start LEOcoin: click-to-pay handler</translation>
+    </message>
+</context>
+<context>
+    <name>PeerTableModel</name>
+    <message>
+        <location filename="../peertablemodel.cpp" line="+118"/>
+        <source>Address/Hostname</source>
+        <translation>Address/Hostname</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>User Agent</source>
+        <translation>User Agent</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Ping Time</source>
+        <translation>Ping Time</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <location filename="../guiutil.cpp" line="-470"/>
+        <source>%1 d</source>
+        <translation>%1 d</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1 h</source>
+        <translation>%1 h</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1 m</source>
+        <translation>%1 m</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <location line="+55"/>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
+    <message>
+        <location line="-10"/>
+        <source>None</source>
+        <translation>None</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>%1 ms</source>
+        <translation>%1 ms</translation>
+    </message>
+</context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="+46"/>
+        <source>Client name</source>
+        <translation>Client name</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <location line="+23"/>
+        <location line="+26"/>
+        <location line="+26"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+36"/>
+        <location line="+23"/>
+        <location line="+36"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+491"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+    <message>
+        <location line="-1062"/>
+        <source>Client version</source>
+        <translation>Client version</translation>
+    </message>
+    <message>
+        <location line="-45"/>
+        <source>&amp;Information</source>
+        <translation>&amp;Information</translation>
+    </message>
+    <message>
+        <location line="-10"/>
+        <source>LEOcoin - Debug window</source>
+        <translation>LEOcoin - Debug window</translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>LEOcoin Core</source>
+        <translation>LEOcoin Core</translation>
+    </message>
+    <message>
+        <location line="+53"/>
+        <source>Using OpenSSL version</source>
+        <translation>Using OpenSSL version</translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>Using BerkeleyDB version</source>
+        <translation>Using BerkeleyDB version</translation>
+    </message>
+    <message>
+        <location line="+49"/>
+        <source>Startup time</source>
+        <translation>Startup time</translation>
+    </message>
+    <message>
+        <location line="+29"/>
+        <source>Network</source>
+        <translation>Network</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Name</source>
+        <translation>Name</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Number of connections</source>
+        <translation>Number of connections</translation>
+    </message>
+    <message>
+        <location line="+157"/>
+        <source>Show the LEOcoin help message to get a list with possible LEOcoin command-line options.</source>
+        <translation>Show the LEOcoin help message to get a list with possible LEOcoin command-line options.</translation>
+    </message>
+    <message>
+        <location line="+99"/>
+        <source>&amp;Network Traffic</source>
+        <translation>&amp;Network Traffic</translation>
+    </message>
+    <message>
+        <location line="+52"/>
+        <source>&amp;Clear</source>
+        <translation>&amp;Clear</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Totals</source>
+        <translation>Totals</translation>
+    </message>
+    <message>
+        <location line="+64"/>
+        <location filename="../rpcconsole.cpp" line="+396"/>
+        <source>In:</source>
+        <translation>In:</translation>
+    </message>
+    <message>
+        <location line="+80"/>
+        <location filename="../rpcconsole.cpp" line="+1"/>
+        <source>Out:</source>
+        <translation>Out:</translation>
+    </message>
+    <message>
+        <location line="+41"/>
+        <source>&amp;Peers</source>
+        <translation>&amp;Peers</translation>
+    </message>
+    <message>
+        <location line="+39"/>
+        <location filename="../rpcconsole.cpp" line="-167"/>
+        <location line="+328"/>
+        <source>Select a peer to view detailed information.</source>
+        <translation>Select a peer to view detailed information.</translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>Peer ID</source>
+        <translation>Peer ID</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Direction</source>
+        <translation>Direction</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Version</source>
+        <translation>Version</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>User Agent</source>
+        <translation>User Agent</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Services</source>
+        <translation>Services</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Starting Height</source>
+        <translation>Starting Height</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Sync Height</source>
+        <translation>Sync Height</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Ban Score</source>
+        <translation>Ban Score</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Connection Time</source>
+        <translation>Connection Time</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Last Send</source>
+        <translation>Last Send</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Last Receive</source>
+        <translation>Last Receive</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Bytes Sent</source>
+        <translation>Bytes Sent</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Bytes Received</source>
+        <translation>Bytes Received</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Ping Time</source>
+        <translation>Ping Time</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Time Offset</source>
+        <translation>Time Offset</translation>
+    </message>
+    <message>
+        <location line="-866"/>
+        <source>Block chain</source>
+        <translation>Block chain</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Current number of blocks</source>
+        <translation>Current number of blocks</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Estimated total blocks</source>
+        <translation>Estimated total blocks</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Last block time</source>
+        <translation>Last block time</translation>
+    </message>
+    <message>
+        <location line="+49"/>
+        <source>Open the LEOcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the LEOcoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;Open</source>
+        <translation>&amp;Open</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Command-line options</source>
+        <translation>Command-line options</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>&amp;Show</source>
+        <translation>&amp;Show</translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>&amp;Console</source>
+        <translation>&amp;Console</translation>
+    </message>
+    <message>
+        <location line="-266"/>
+        <source>Build date</source>
+        <translation>Build date</translation>
+    </message>
+    <message>
+        <location line="+206"/>
+        <source>Debug log file</source>
+        <translation>Debug log file</translation>
+    </message>
+    <message>
+        <location line="+109"/>
+        <source>Clear console</source>
+        <translation>Clear console</translation>
+    </message>
+    <message>
+        <location filename="../rpcconsole.cpp" line="-197"/>
+        <source>Welcome to the LEOcoin Core RPC console.</source>
+        <translation>Welcome to the LEOcoin Core RPC console.</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</translation>
+    </message>
+    <message>
+        <location line="+233"/>
+        <source>via %1</source>
+        <translation>via %1</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <location line="+1"/>
+        <source>never</source>
+        <translation>never</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Inbound</source>
+        <translation>Inbound</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Outbound</source>
+        <translation>Outbound</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Unknown</source>
+        <translation>Unknown</translation>
+    </message>
+    <message>
+        <source>Fetching...</source>
+        <translation type="vanished">Fetching...</translation>
     </message>
 </context>
 <context>
@@ -3440,7 +3465,7 @@ Expected time to earn reward is %3</translation>
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+393"/>
+        <location filename="../walletmodel.cpp" line="+402"/>
         <location line="+246"/>
         <source>Sending...</source>
         <translation>Sending...</translation>
