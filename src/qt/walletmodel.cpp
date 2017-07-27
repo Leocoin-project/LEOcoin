@@ -11,7 +11,7 @@
 
 
 #include <boost/filesystem.hpp>
-#include <boost/locale.hpp>
+//#include <boost/locale.hpp>
 
 #include <QSet>
 #include <QTimer>

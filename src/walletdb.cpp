@@ -7,7 +7,7 @@
 #include "wallet.h"
 #include <boost/version.hpp>
 #include <boost/filesystem.hpp>
-#include <boost/locale.hpp>
+//#include <boost/locale.hpp>
 
 using namespace std;
 namespace fs = boost::filesystem;
