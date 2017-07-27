@@ -2151,16 +2151,17 @@ Ring size of one is not anonymous, and harms the network.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-	<location line="+1"/>
-	<source>LEOcoin Notification</source>
-	<translation>LEOcoin Notification</translation>
-    <message>
         <location line="+61"/>
+        <source>LEOcoin Notification</source>
+        <translation>LEOcoin Notification</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>A new version of the LEOcoin wallet is available.</source>
         <translation type="unfinished">A new version of the LEOcoin wallet is available.</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Please go to</source>
         <translation type="unfinished">Please go to</translation>
     </message>
