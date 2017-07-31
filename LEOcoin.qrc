@@ -1,6 +1,6 @@
 <RCC>
     <qresource prefix="/">
-        <file alias="assets/css/custom.css">src/qt/res/assets/css/custom.css</file>
+        <file alias="assets/css/custom.min.css">src/qt/res/assets/css/custom.min.css</file>
         <file alias="assets/css/font-awesome-buttons.min.css">src/qt/res/assets/css/font-awesome-buttons.min.css</file>
         <file alias="assets/css/font-awesome.min.css">src/qt/res/assets/css/font-awesome.min.css</file>
         <file alias="assets/css/framework-icons.min.css">src/qt/res/assets/css/framework-icons.min.css</file>
@@ -21,7 +21,7 @@
         <file alias="assets/css/less/typography.less">src/qt/res/assets/css/less/typography.less</file>
         <file alias="assets/css/less/variables.less">src/qt/res/assets/css/less/variables.less</file>
         <file alias="assets/css/normalize.css">src/qt/res/assets/css/normalize.css</file>
-        <file alias="assets/css/styles.css">src/qt/res/assets/css/styles.css</file>
+        <file alias="assets/css/styles.min.css">src/qt/res/assets/css/styles.min.css</file>
         <file alias="assets/fonts/FontAwesome/FontAwesome.otf">src/qt/res/assets/fonts/FontAwesome/FontAwesome.otf</file>
         <file alias="assets/fonts/FontAwesome/fontawesome-webfont.eot">src/qt/res/assets/fonts/FontAwesome/fontawesome-webfont.eot</file>
         <file alias="assets/fonts/FontAwesome/fontawesome-webfont.svg">src/qt/res/assets/fonts/FontAwesome/fontawesome-webfont.svg</file>
