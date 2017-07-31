@@ -2128,7 +2128,7 @@ Ring size of one is not anonymous, and harms the network.</source>
     <message>
         <location line="+1"/>
         <source>A new version of the LEOcoin wallet is available.</source>
-        <translation>&nbsp;</translation>
+        <translation> </translation>
     </message>
     <message>
         <location line="+3"/>
