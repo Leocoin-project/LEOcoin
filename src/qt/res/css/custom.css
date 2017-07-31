@@ -358,17 +358,6 @@ hr {
     padding: 0px 10px 10px 10px;
 }
 
-.main-version-download{
-    color:#eda821;
-    font-size: 18px;
-}
-.other-version-download{
-    color:#eda821;
-}
-
-.version-found{
-    padding-top:15px;
-}
 .avatar {
     cursor: pointer;
 }
@@ -440,7 +429,7 @@ hr {
     padding-right: 10px;
 }
 
-.footable.no-paging .hide-if-no-paging{
+.pagination.pager.hide-if-no-paging {
     display: none;
 }
 
@@ -793,8 +782,4 @@ progress::-webkit-progress-value {
 
 .section h2{
     font-weight: 400;
-}
-
-.balance-value{
-    color: #b4b4b4;
 }
