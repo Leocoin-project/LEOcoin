@@ -3,7 +3,7 @@ name: "LEOcoin"
 suites:
 - "trusty"
 architectures:
-- "i386"
+#- "i386"
 - "amd64"
 packages: 
 - "g++"
@@ -50,7 +50,7 @@ script: |
   git archive HEAD | tar -x -C $OUTDIR/src
   cp $OUTDIR/src/doc/README $OUTDIR
   cp $OUTDIR/src/COPYING $OUTDIR
-  cd src
+  #cd src
   #make -f makefile.unix STATIC=1 OPENSSL_INCLUDE_PATH="$STAGING/include" OPENSSL_LIB_PATH="$STAGING/lib" $MAKEOPTS LEOcoind USE_UPNP=1 BOOST_LIB_SUFFIX="-mt" DEBUGFLAGS= 
   #mkdir -p $STAGING/bin/$GBUILD_BITS
   #install -s LEOcoind $OUTDIR/bin/$GBUILD_BITS
