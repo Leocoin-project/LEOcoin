@@ -1250,6 +1250,7 @@ label {
     }
 }
 
+input,
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -1266,10 +1267,12 @@ input[type="password"], select, textarea {
     background-color: rgba(191, 191, 191, 0.5);
     padding: 0 13px;
     width: 100%;
+    margin-right:2px;
 }
 
+.btn-group input,
 .btn-group input[type="text"],
-.btn-group input[type="email"] 
+.btn-group input[type="email"]
 .btn-group input[type="tel"] 
 .btn-group input[type="number"] 
 .btn-group input[type="url"] 
@@ -1305,6 +1308,7 @@ input[type="password"], select, textarea {
     margin-bottom: 4px;
 }
 
+.title-widgets input,
 .title-widgets input[type="text"],
 .title-widgets input[type="email"],
 .title-widgets input[type="tel"],
@@ -1319,6 +1323,7 @@ input[type="password"], select, textarea {
     padding-bottom: 2px;
     height: 34px;
     margin-top: 0;
+    margin-right:2px;
 }
 
 .title-widgets select {
@@ -1331,6 +1336,7 @@ textearea {
 }
 
 @media only screen and (min-width: 768px) {
+    input,
     input[type="text"],
     input[type="email"],
     input[type="tel"],
@@ -1344,6 +1350,7 @@ textearea {
         width: 300px;
     }
 
+    .title-widgets input,
     .title-widgets input[type="text"],
     .title-widgets input[type="email"],
     .title-widgets input[type="tel"],
@@ -1381,6 +1388,7 @@ textearea {
         width: 300px;
     }
 
+    .btn-group input,
     .btn-group input[type="text"],
     .btn-group input[type="email"],
     .btn-group input[type="tel"],
@@ -1448,7 +1456,7 @@ input[type="checkbox"] + label:before {
     border: 4px solid #7b7b7b;
 }
 
-.disabled{
+.disabled {
     cursor: default !important;
 }
 
@@ -2751,7 +2759,7 @@ th {
 }
 
 .modal-close {
-    color: #aaa;
+    color: #eda821;
     position: absolute;
     top: 10px;
     right: 15px;
@@ -2766,3 +2774,47 @@ th {
     cursor: pointer;
 }
 
+#address-lookup-table > tbody tr {
+    cursor: pointer;
+}
+
+.white .modal-content {
+    position: relative;
+    padding: 0px 20px 20px 20px;
+    background-color: #fefefe;
+    border: 1px solid #eda821;
+    color: #000000;
+}
+
+.white .modal-header {
+    background-color: #000000;
+    color: #fefefe;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    background-size: 113px;
+    background-image: url(../images/logo-leocoin.svg);
+    background-repeat: no-repeat;
+    background-position: 13px center;
+    border-bottom: 1px solid #eda821;
+}
+
+.modal.white h2 {
+    margin: 0px;
+    margin-left: 120px;
+    border-bottom: 0px;
+    margin-top: 2px;
+}
+
+.modal.white .version-found {
+    text-align: center;
+    font-size: 2rem;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.modal.white .version-found a {
+    color: #eda821;
+    font-weight: bold;
+}
