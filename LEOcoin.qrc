@@ -271,7 +271,6 @@
         <file alias="assets/img/shoppingcart.png">src/qt/res/assets/img/shoppingcart.png</file>
         <file alias="assets/img/splash.png">src/qt/res/assets/img/splash.png</file>
         <file alias="assets/js/custom.min.js">src/qt/res/assets/js/custom.min.js</file>
-        <file alias="assets/js/custom.js">src/qt/res/assets/js/custom.js</file>
         <file alias="assets/js/jquery-2.2.1.min.js">src/qt/res/assets/js/jquery-2.2.1.min.js</file>
         <file alias="assets/js/LEOcoin.min.js">src/qt/res/assets/js/LEOcoin.min.js</file>
         <file alias="assets/js/modernizr-2.8.3.min.js">src/qt/res/assets/js/modernizr-2.8.3.min.js</file>
