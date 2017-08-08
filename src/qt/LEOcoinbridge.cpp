@@ -38,6 +38,7 @@
 #include <QWebFrame>
 #include <QClipboard>
 #include <QMessageBox>
+#include <QNetworkReply>
 #include <QSortFilterProxyModel>
 
 #include <QVariantList>
@@ -866,6 +867,7 @@ bool LEOcoinBridge::validateAddress(QString address)
 
 bool LEOcoinBridge::checkVersion()
 {
+    /**
     // create custom temporary event loop on stack
     QEventLoop eventLoop;
 
@@ -883,7 +885,7 @@ bool LEOcoinBridge::checkVersion()
         QString data = reply->readAll();
         QStringList splitdata = data.split("'");
         QString extractedVersion = splitdata.at(1);
-        QString version = new QString(FULL_VERSION);
+        QString version = QString(FULL_VERSION);
 
 
         bool result = QString::compare(version, extractedVersion, Qt::CaseInsensitive) == 0;
@@ -895,7 +897,9 @@ bool LEOcoinBridge::checkVersion()
     }
     else {
         return false;
-    }
+    }**/
+
+    return true;
 }
 
 bool LEOcoinBridge::deleteAddress(QString address)
