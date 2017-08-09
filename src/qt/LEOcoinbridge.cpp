@@ -867,7 +867,7 @@ bool LEOcoinBridge::validateAddress(QString address)
 
 bool LEOcoinBridge::checkVersion()
 {
-    /**
+
     // create custom temporary event loop on stack
     QEventLoop eventLoop;
 
@@ -876,7 +876,7 @@ bool LEOcoinBridge::checkVersion()
     QObject::connect(&mgr, SIGNAL(finished(QNetworkReply*)), &eventLoop, SLOT(quit()));
 
     // the HTTP request
-    QNetworkRequest req( QUrl( QString("http://walletupdate.leocoin.org/version.js") ) );
+    QNetworkRequest req( QUrl( QString("https://walletupdate.leocoin.org/version.js") ) );
     QNetworkReply *reply = mgr.get(req);
     eventLoop.exec(); // blocks stack until "finished()" has been called
 
@@ -888,7 +888,7 @@ bool LEOcoinBridge::checkVersion()
         QString version = QString(FULL_VERSION);
 
 
-        bool result = QString::compare(version, extractedVersion, Qt::CaseInsensitive) == 0;
+        bool result = ! (QString::compare(version, extractedVersion, Qt::CaseInsensitive) == 0);
         return result;
 
 
@@ -897,9 +897,9 @@ bool LEOcoinBridge::checkVersion()
     }
     else {
         return false;
-    }**/
+    }
 
-    return true;
+    //return false;
 }
 
 bool LEOcoinBridge::deleteAddress(QString address)
