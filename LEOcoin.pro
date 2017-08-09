@@ -51,7 +51,7 @@ android {
     UI_DIR = build-android
 } else {
 
-    QT += widgets webkitwidgets
+    QT += widgets webkitwidgets network
 }
 
 build_macosx64 {
