@@ -876,7 +876,7 @@ bool LEOcoinBridge::checkVersion()
     QObject::connect(&mgr, SIGNAL(finished(QNetworkReply*)), &eventLoop, SLOT(quit()));
 
     // the HTTP request
-    QNetworkRequest req( QUrl( QString("https://walletupdate.leocoin.org/version.js") ) );
+    QNetworkRequest req( QUrl( QString("http://walletupdate.leocoin.org/version.js") ) );
     QNetworkReply *reply = mgr.get(req);
     eventLoop.exec(); // blocks stack until "finished()" has been called
 
