@@ -16,7 +16,7 @@ void AboutDialog::setModel(ClientModel *model)
 {
     if(model)
     {
-        ui->versionLabel->setText(FULL_VERSION);
+        ui->versionLabel->setText(model->formatFullVersion());
 
         ui->copyrightLabel->setText(
             ui->copyrightLabel->text().arg(QString::fromStdString(CLIENT_LAST_COPYRIGHT)));

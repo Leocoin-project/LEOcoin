@@ -21,7 +21,7 @@ packages:
 - "genisoimage"
 reference_datetime: "2017-06-12 00:00:00"
 remotes:
-- "url": "/home/debian/out/LEOcoin"
+- "url": "https://github.com/Leocoin-project/LEOcoin"
   "dir": "LEOcoin"
 files:
 - "qt-osx-5.5.1-gitian.tar.xz"
