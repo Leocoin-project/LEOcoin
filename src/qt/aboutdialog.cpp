@@ -3,6 +3,7 @@
 #include "clientmodel.h"
 
 #include "version.h"
+#include "clientversion.h"
 
 AboutDialog::AboutDialog(QWidget *parent) :
     QDialog(parent),
@@ -15,7 +16,7 @@ void AboutDialog::setModel(ClientModel *model)
 {
     if(model)
     {
-        ui->versionLabel->setText(model->formatFullVersion());
+        ui->versionLabel->setText(FULL_VERSION);
 
         ui->copyrightLabel->setText(
             ui->copyrightLabel->text().arg(QString::fromStdString(CLIENT_LAST_COPYRIGHT)));

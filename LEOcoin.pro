@@ -6,6 +6,7 @@ DEFINES += BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE
 CONFIG += no_include_pwd
 CONFIG += thread
 
+
 target.path = /usr/local/bin/
 INSTALLS += target
 
