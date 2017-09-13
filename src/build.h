@@ -1,2 +1,0 @@
-#define BUILD_DESC "v3.0.6.1"
-#define BUILD_DATE "2017-07-31 11:58:33 +0200"
